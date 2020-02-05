@@ -1,4 +1,5 @@
 ---
+title: Home
 menu:
   docs:
     parent: 'extras'

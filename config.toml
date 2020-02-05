@@ -5,6 +5,8 @@ title = "Initio - Free, multipurpose html5 template by GetTemplate"
 theme = "dh-de"
 publishDir = "docs"
 
+paginate = 1
+
 [params]
     nameWithTitle = "Dipl. math. Daniel Hons"
     name = "Daniel Hons"

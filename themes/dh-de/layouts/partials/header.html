@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.w3.org/1999/xhtml" lang="de">
 
 <head>
-    <title th:text="${@pageConfig.getTitle(title)}">Titel der Seite</title>
-    <meta name="description" th:content="${@pageConfig.getDescription()}">
-    <meta name="author" th:content="${company.contactName}">
+    <title>{{.Page.Title}} {{if gt (len .Site.Title) 0}} | {{end}} {{.Site.Title}}</title>
+    <meta name="description" content="{{.Page.Description}}" >
+    <meta name="author" content="{{.Site.Params.name}}">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -15,10 +14,11 @@
     <link href="css/modern-business.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+<!--    <link rel="shortcut icon" href="{{ .Site.BaseURL }}{{ .Site.Params.favicon }}">-->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<!--    <link rel="manifest" href="/site.webmanifest">-->
 </head>
 
 <body>
@@ -26,7 +26,7 @@
 <!-- Navigation -->
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="/" th:text="${company.name}">The Company</a>
+        <a class="navbar-brand" href="/" >{{ .Site.Params.nameWithTitle }}</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation">

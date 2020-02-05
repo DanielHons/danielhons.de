@@ -1,0 +1,70 @@
+<div class="container" layout:fragment="content">
+
+    <h1 class="my-4">Skalierbare Business-Anwendungen</h1>
+    <h2>Moderne Software mit Köpfchen</h2>
+    <!-- Features Section -->
+    <div class="row">
+        <div class="col-lg-6">
+            <p>Ich bin freier Software-Ingenieur mit einer Spezialisierung auf Backendentwicklung im Cloud-Umfeld. Für die Architektur von Anwendungen greife ich auf einen umfangreichen und stetig wachsenden "Werkzeugkoffer" aus Services,
+                Tools und Plattformen zurück. Anstatt immer wieder das sprichwörtliche Rad neu zu erfinden, gehört es für mich zum Alltag, kreative vorhandene Lösungen zu recherchieren, evaluieren und bei Bedarf zur Lösung von Problemen zu integrieren.</p>
+            <p>Dabei setze ich im Wesentlichen auf die folgenden Technologien und Patterns:</p>
+            <ul>
+                <li>
+                    <strong>Microservices</strong>
+                </li>
+                <li>Docker</li>
+                <li>Spring Boot</li>
+                <li>Springframework</li>
+                <li>diverse Cloud Hosting Dienstleister</li>
+                <li>diverse Datenbanken (bevorzugt PostgreSQL)</li>
+            </ul>
+            <h3>Software im Wandel</h3>
+            <p>Die Welt der modernen Technologien ist oft kurzlebig. Gerade deshalb bedarf die Entwicklung von modernen Anwendung einer guten Kenntnis des aktuellen Standes
+                der Technik.</p>
+            <p>Im Folgenden liste ich die Technologien auf, die ich aktuell besonders häufig und gerne verwende. </p>
+        </div>
+        <div class="col-lg-6">
+            <img class="img-fluid rounded" src="images/cloudcomputing.jpg" alt="Cloud Computing">
+        </div>
+    </div>
+    <!-- /.row -->
+
+    <!-- Marketing Icons Section -->
+    <h3>Auszug aus der Werkzeugkiste</h3>
+    <p>Hier finden Sie einen Auszug aus der umfangreichen Liste der Tools, die aktuell von mir bevorzugt werden.</p>
+    <p>Weitere Technologien sind auf Unterseiten aufgezählt, eine Gesamtübersicht nach Tags sortiert finden Sie <a href="/tags.html">hier</a>.</p>
+    <div class="row">
+        <div
+                th:each="technology : ${technologies}" th:include="fragments/card.html :: toolCard-list"
+                th:remove="tag"
+                th:with="title=${technology.name}, text=${technology.text}, href=${technology.href}, rating=${technology.rating}">
+        </div>
+    </div>
+    <!-- /.row -->
+
+
+    <!--/* No idea why, but this code causes the layout to jump a bit-->
+    <!--<h2>Test-Sektion</h2>-->
+    <!--<div class="row">-->
+    <!--&lt;!&ndash;/*@thymesVar id="things" type="de.danielhons.website.model.Technology"*/&ndash;&gt;-->
+    <!--<div-->
+    <!--th:each="technology : ${things}" th:include="fragments/card.html :: imageCard-list"-->
+    <!--th:remove="tag"-->
+    <!--th:with="name=${technology.name}, text=${technology.text}, href=${technology.href}">-->
+    <!--</div>-->
+    <!--</div>-->
+    <!-- /.row */-->
+
+    <hr>
+
+    <!-- Call to Action Section -->
+    <div class="row mb-4">
+        <div class="col-md-8">
+            <p>Bei Interesse an einer Zusammenarbeit erreichen Sie mich am einfachsten per Mail. Ich freue mich auf Ihre Anfragen.</p>
+        </div>
+        <div class="col-md-4">
+            <a class="btn btn-lg btn-secondary btn-block" href="impressum.html">Get in touch</a>
+        </div>
+    </div>
+
+</div>

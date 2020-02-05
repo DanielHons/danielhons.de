@@ -1,0 +1,114 @@
+
+baseURL = "https://miguelsimoni.github.io/"
+languageCode = "en-us"
+title = "Initio - Free, multipurpose html5 template by GetTemplate"
+theme = "dh-de"
+publishDir = "docs"
+
+[params]
+    nameWithTitle = "Dipl. math. Daniel Hons"
+    name = "Daniel Hons"
+    description = "IT mit Leidenschaft"
+    email = "mail@danielhons.de"
+    phone = "+49 176 62 807 613"
+    address = "Buchenhöhe 1 50169 Kerpen"
+    year = 2020
+    avatar = "images/guy.jpg"
+    background = ""
+    favicon = "images/gt_favicon.png"
+    DateForm = "02. Jan 2006"
+
+    showSubheader = true
+    showServices = true
+    showRecentWorks = true
+    showDownload = false
+    showClients = true
+    showTechnologies = true
+
+    footerEnableContact = true
+    footerEnableFollowme = true
+    footerEnableTextWidget = true
+    footerEnableFormWidget = true
+
+    jobRoles = ["Architekt","Qualitätssicherer","Anforderungsanalyst"]
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "Blog"
+    url = "/post/"
+    weight = 5
+[[menu.main]]
+    name = "Projekte"
+    url = "/projects/"
+    weight = 6
+
+
+[params.disqus]
+    site = "hugo-initio-site.disqus.com"
+
+[params.sharethis]
+    property = "123456789012345678901234"
+    custom = true
+
+[params.google.analytics]
+    trackerID = ""
+
+[[params.social]]
+	title = "facebook"
+	url = "https://www.facebook.com/nickname"
+    icon = "fab fa-facebook-square"
+    footer = true
+    sharethis = true
+    network = "facebook"
+[[params.social]]
+	title = "twitter"
+	url = "https://twitter.com/nickname"
+    icon = "fab fa-twitter-square"
+    footer = true
+    sharethis = true
+    network = "twitter"
+[[params.social]]
+	title = "instagram"
+	url = "https://www.instagram.com/nickname"
+    icon = "fab fa-instagram"
+    footer = true
+    sharethis = false
+    network = ""
+[[params.social]]
+	title = "google+"
+	url = "https://plus.google.com/+nickname"
+    icon = "fab fa-google-plus-square"
+    footer = false
+    sharethis = true
+    network = "googleplus"
+[[params.social]]
+	title = "linkedin"
+	url = "https://www.linkedin.com/in/nickname"
+    icon = "fab fa-linkedin"
+    footer = false
+    sharethis = true
+    network = "linkedin"
+[[params.social]]
+	title = "tumblr"
+	url = "https://nickname.tumblr.com"
+    icon = "fab fa-tumblr-square"
+    footer = false
+    sharethis = false
+    network = "tumblr"
+[[params.social]]
+	title = "github"
+	url = "https://github.com/DanielHons"
+    icon = "fab fa-github"
+    footer = true
+    sharethis = false
+    network = ""
+[[params.social]]
+	title = "email"
+	url = "mailto:some.email@somewhere.com"
+    icon = "fas fa-envelope-square"
+    footer = false
+    sharethis = true
+    network = "email"

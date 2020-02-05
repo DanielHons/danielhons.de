@@ -1,0 +1,183 @@
+[
+  {
+    "id": 0,
+    "name": "Backendentwicklung für automatisiertes Wartungsplanmanagement von Industriemaschinen",
+    "image": "images/s1.jpg",
+    "role": "Architektur, Beratung und Entwicklung",
+    "url": "#",
+    "items": [
+      {
+        "name": "Java",
+        "url": "#"
+      },
+      {
+        "name": "Spring",
+        "url": "#"
+      },
+      {
+        "name": "Docker",
+        "url": "#"
+      },
+      {
+        "name": "Kubernetes",
+        "url": "#"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Implementierung einer Continuous Delivery Pipeline für ein Projekt mit mehreren Scrum Teams",
+    "image": "images/s1.jpg",
+    "role": "Konzeption und Entwicklung",
+    "url": "#",
+    "items": [
+      {
+        "name": "Jenkins",
+        "url": "#"
+      },
+      {
+        "name": "DevOps",
+        "url": "#"
+      },
+      {
+        "name": "Groovy",
+        "url": "#"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Software zur Verwaltung von Dienstleistertätigkeiten mit Rechnungslegung",
+    "image": "images/s1.jpg",
+    "role": "Anforderungsanalyse und Entwicklung",
+    "url": "#",
+    "items": [
+      {
+        "name": "Java",
+        "url": "#"
+      },
+      {
+        "name": "Vaadin",
+        "url": "#"
+      },
+      {
+        "name": "PostgREST",
+        "url": "#"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Anwendung zur steuerlichen Erfassung, Prüfung und buchhalterischen Verarbeitung von geldwerten Vorteilen (Incentives)",
+    "image": "images/s1.jpg",
+    "role": "Entwicklung",
+    "url": "#",
+    "items": [
+      {
+        "name": "Java",
+        "url": "#"
+      },
+      {
+        "name": "Spring",
+        "url": "#"
+      },
+      {
+        "name": "Angular",
+        "url": "#"
+      },
+      {
+        "name": "Kubernetes",
+        "url": "#"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Library zur Modellierung stark vernetzter zeitlicher Daten als Baum in einer Graphdatenbank",
+    "image": "images/s1.jpg",
+    "role": "Entwicklung",
+    "url": "#",
+    "items": [
+      {
+        "name": "Neo4j",
+        "url": "#"
+      },
+      {
+        "name": "Java",
+        "url": "#"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Beratung bei der Erstellung einer Anwendung zur Prüfung und Pflege von Belegungsplänen für Buroarbeitsplätze (Shared Desk)",
+    "image": "images/s1.jpg",
+    "role": "Beratung und Qualitätssicherung",
+    "url": "#",
+    "items": [
+      {
+        "name": "Neo4j",
+        "url": "#"
+      },
+      {
+        "name": "Java",
+        "url": "#"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Erstellung eines Konzepts für einen Cloud-Service im medizinischen Bereich",
+    "image": "images/s1.jpg",
+    "role": "Beratung und Architektur",
+    "url": "#",
+    "items": [
+      {
+        "name": "Architektur",
+        "url": "#"
+      },
+      {
+        "name": "Java",
+        "url": "#"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Redesign eines UI-Automatisierungsframeworks zum Test einer Warenwirtschaftsanwendung",
+    "image": "images/s1.jpg",
+    "role": "Entwicklung und Design",
+    "url": "#",
+    "items": [
+      {
+        "name": "C#",
+        "url": "#"
+      },
+      {
+        "name": ".NET",
+        "url": "#"
+      },
+      {
+        "name": "Ranorex",
+        "url": "#"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Testautomatisierungsframework mit Selenium für eine Handelsplattform in der Logistik",
+    "image": "images/s1.jpg",
+    "role": "Entwicklung und Design",
+    "url": "#",
+    "items": [
+      {
+        "name": "PHP",
+        "url": "#"
+      },
+      {
+        "name": "Selenium",
+        "url": "#"
+      }
+    ]
+  }
+]

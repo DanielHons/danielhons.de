@@ -1,0 +1,504 @@
+[
+  {
+    "id": 1,
+    "name": "C++",
+    "text": "Programmiersprache eines Projekts zur Analyse und 3D-Darstellung von Christallstrukturen. Wird aktuell von mir nicht eingesetzt.",
+    "rating": 15,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Programmiersprache"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Java",
+    "text": "Nicht zuletzt Dank des Springframeworks und Spring Boot ist Java ein zuverlässiger Allrounder für Backends. Mit Technologien wie Thymeleaf und Vaadin lassen sich aber auch Frontends erstellen. Leider ist die JVM recht hungrig nach Arbeitsspeicher.",
+    "rating": 86,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Programmiersprache",
+      "Website"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "PHP",
+    "text": "Nach mehreren Projekten bis 2017, wird PHP von mir derzeit nicht verwendet.",
+    "rating": 49,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Programmiersprache"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "C#",
+    "text": "Insbesondere in der GUI-Testautomatisierung von mir oft verwendet. Derzeit kein Schwerpunkt. Ein großer Vorteil von C# (.NET) ist LINQ.",
+    "rating": 50,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Programmiersprache"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Shell / Bash",
+    "text": "Ein absolutes Muss für die alltäglichen Kleinigkeiten im Zusammenhang mit Docker und CI/CD. ",
+    "rating": 80,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Programmiersprache",
+      "Website"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Nginx",
+    "text": "Nützlicher Allrounder in der Microservice-Landschaft. Leichtgewichtig und performant als Webserver, Gateway oder Reverse-Proxy.",
+    "rating": 75,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Architektur",
+      "Website"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "PostgREST",
+    "text": "In Haskell geschriebene Anwendung, die eine PostgreSQL-Datenbank in eine dokumentierte und performante REST-API verwandelt. Kann den Entwicklungsaufwand drastisch verringern!",
+    "rating": 83,
+    "href": "https://postgrest.org",
+    "hreftext": "PostgREST",
+    "tags": [
+      "Architektur",
+      "Website"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Docker",
+    "text": "Docker ist mit seinen Teilprojekten wie Docker-Compose, Docker-Swarm und Docker-Machine DIE Plattform für Microservices und damit für mich DER Game-Changer des Jahrzehnts.",
+    "rating": 93,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Architektur",
+      "Deployment",
+      "Website"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Keycloak",
+    "text": "Komplettes Usermanagement in einem Container. Keycloak unterstützt einige Protokolle aus dem Bereich User & Accessmanagement.",
+    "rating": 76,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Architektur",
+      "Security"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "PostgreSQL",
+    "text": "Etablierte, freie und sehr performante relationale Datenbank und in diesem Segment mein Mittel der Wahl. Wird durch PostgREST noch einmal deutlich aufgewertet.",
+    "rating": 90,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Datenbank",
+      "Website"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Neo4j",
+    "text": "Wenn bei stark vernetzten Daten die relationalen Datenbanken an ihre Grenzen kommen, können Graphdatenbanken weiterhelfen. Mein Fokus liegt hier auf Neo4j mit seiner Abfragesprache Cypher.",
+    "rating": 70,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Datenbank"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Oracle",
+    "text": "Oft besonders in größeren Unternehmen fest gesetzte Datenbank.",
+    "rating": 45,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Datenbank"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "MySQL / MariaDB",
+    "text": "Bis ungefärt 2014 die hauptsächlich von mir verwendete Datenbank.",
+    "rating": 50,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Datenbank"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "SQL",
+    "text": "Als Standardabfragesprache für relationale Datenbanken natürlich alltäglich.",
+    "rating": 76,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Datenbank",
+      "Abfragesprache"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Spring Boot",
+    "text": "Nicht zuletzt durch Spring Boot wird Java zum großartigen Allrounder für Backends, auch in Microservice-Architekturen, wobei Java dort allgemein eher schwerfällig ist.",
+    "rating": 79,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Springframework",
+      "Website"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Spring Security",
+    "text": "Perfekt für alles, was mit Authentisierung und Autorisierung, also mit Zugriffsverwaltung zu tun hat.",
+    "rating": 80,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Springframework",
+      "Security"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Spring Data",
+    "text": "Augereifte, konsistente und äußerst komfortable API für Datenpersistierung aller Art. Von mir verwendet wurden (Spring Data) JPA, REST, Neo4J, Redis",
+    "rating": 79,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Springframework"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Thymeleaf",
+    "text": "Die Template Engine Thymeleaf gehört zu den wenigen Frontend-Technolgien, mit denen ich wirklich gerne arbeite. Perfekte Integration in das Springframework, sowie recht gute Unterstützung für IntelliJ.",
+    "rating": 88,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Springframework",
+      "Frontend",
+      "Website"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Vaadin",
+    "text": "Webframework für die Entwicklung von Rich Internet Applications. Business-Anwendungen lassen sich damit zwar gut umsetzen, allerdings wirkt Vaadin manchmal etwas schwergewichtig.",
+    "rating": 55,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Frontend"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Flyway",
+    "text": "Sehr gute Software zum Verwalten von Datenbankmigrationen. Die Integration in Spring Boot ist zuverlässig und kinderleicht.",
+    "rating": 76,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Tool"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Maven",
+    "text": "Maven gab es schon, als ich mit Java begonnen habe. Nur wenige Werkzeuge haben sich so lange bewährt. Für mich die erste Wahl!",
+    "rating": 76,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Tool",
+      "Website"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Git",
+    "text": "Das Versionieren von Quellcode ist Dank der von Linus Torvalds geschriebenen, freien Software Git wesentlich leichter und effizienter als zuvor.",
+    "rating": 94,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Tool",
+      "Versionierung"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Subversion",
+    "text": "Dieser etwa fünf Jahre ältere Vorgänger von Git begegnet mir heute eigentlich gar nicht mehr.",
+    "rating": 20,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Tool",
+      "Versionierung"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Spring MVC",
+    "text": "Für Webanwendungen in Java verwende ich fast immer Spring MVC.",
+    "rating": 68,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Springframework",
+      "Website"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Kubernetes",
+    "text": "Die Orchestrierung von Containern wird durch Kubernetes vereinfacht. Es entwickelt sich bei den großen Cloudanbietern derzeit zum Industriestandard.",
+    "rating": 60,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Deployment"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Docker Swarm",
+    "text": "Vervollständigt Docker Compose zu einem Cluster Management System und ermöglicht so zum Beispiel die Verwaltung von Secrets, zum Beispiel Passwörtern.",
+    "rating": 45,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Deployment"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Docker Compose",
+    "text": "Leichtgewichtigt und dennoch recht umfangreich, eignet sich Docker Compose besonders für Entwicklungsumgebungen und einfache Deployments.",
+    "rating": 80,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Deployment",
+      "Website"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Docker Machine",
+    "text": "Docker Befehle lassen sich nicht nur auf dem eigenen Rechner ausführen. Docker-Machine kann virtuelle Server anlegen, provisionieren und kapselt die Verbindung zum dort ausgeführten Docker Daemon.",
+    "rating": 59,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Deployment",
+      "Website"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Bitbucket",
+    "text": "Atlassians Plattform bietet neben dem Hosting von Quellcode auch die schlanke CI/CD Lösung bitbucket-pipelines. Vor allem kleinen Teams sind hier oft gut aufgehoben.",
+    "rating": 72,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Tool",
+      "Website",
+      "Versionierung"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "JavaScript",
+    "text": "Für meine Smart Home Steuerung verwende ich JavaScript.",
+    "rating": 11,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Programmiersprache"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Delphi",
+    "text": "Nach meinen ersten Gehversuchen mit Turbo Pascal bot sich Delphi (also Object Pascal) als Nachfolger an. Das stellte sich später als gute Entscheidung heraus, da Delphi auch an meiner späteren Schule gelehrt wurde.",
+    "rating": 10,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Programmiersprache"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Turbo Pascal",
+    "text": "Erste Programmiersprache in meiner Kindheit",
+    "rating": 3,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Programmiersprache"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Gradle",
+    "text": "Gradle ist ein Build und Dependency Management System für Java und deutlich jünger als Maven. ",
+    "rating": 68,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Tool"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "OAuth 2.0",
+    "text": "Mit diesem Protokoll lassen sich Berechtigungen feingranular an Dritte delegieren. Oauth ist ebenfalls eine Grundlage für das SSO Protokoll OpenID Connect",
+    "rating": 70,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Security"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "OpenID Connect",
+    "text": "Dieses Protokoll für Single Sign On setzt sich immer weiter durch. Dies liegt nicht zuletzt an der breiten Unterstützung durch Facebook, Github und Google.",
+    "rating": 64,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Security"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Swift",
+    "text": "App-Entwicklung für IOS ist für mich die aktuell neueste Technologie.",
+    "rating": 77,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Programmiersprache",
+      "Frontend"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Golang",
+    "text": "Die Programmiersprache Go setzt sich insbesondere wegen ihrer Effizienz gerade im Microservice-Umfeld immer weiter durch. Ich finde: Zu Recht! Deswegen setze ich derzeit immer öfter auf Go.",
+    "rating": 83,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Programmiersprache",
+      "Website"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "ory/hydra",
+    "text": "Open Source Implementierung von OAuth 2.0. Mit Hydra können Sie Ihr vorhandenes User-Management in Ihre Cloud-Anwendungen integrieren. ",
+    "rating": 32,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Architektur",
+      "Security"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "JWT",
+    "text": "Standardisierte, auf JSON aufbauende Access-Tokens zum Austausch verifizierbarer Informationen in Form sogenannter Claims. ",
+    "rating": 67,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Security"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Apache Cassandra",
+    "text": "Durch die masterfreie Replikation eignet sich Cassandra für Anwendungsfälle mit sehr vielen, insbesondere global verteilten Schreibvorgängen.",
+    "rating": 31,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Architektur",
+      "Datenbank"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Redis",
+    "text": "Relativ verbreiteter In-Memory Cache, der Key-Value Paare speichert.",
+    "rating": 16,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Architektur",
+      "Datenbank"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Jenkins",
+    "text": "",
+    "rating": 76,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "DevOps",
+      "Deployment"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Jackson",
+    "text": "",
+    "rating": 67,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "JSON",
+      "Java",
+      "Tools"
+    ]
+  }
+]

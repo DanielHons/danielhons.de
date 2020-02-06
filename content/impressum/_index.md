@@ -2,6 +2,7 @@
 aliases:
     - /impressum.html
 title: Impressum
+adelsTitel: "Verantwortlich gemäß § 5 TMG und § 55 Abs. 2 RStV"
 ---
 
 

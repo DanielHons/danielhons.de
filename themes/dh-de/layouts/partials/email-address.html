@@ -1,0 +1,13 @@
+
+
+<script>
+    /*<![CDATA[*/
+    var split = {{ split .Site.Params.email "@" }};
+    var parts2 = '&#64';
+    var masked = split[0] + parts2 + split[1];
+    var elementsByClassName = document.getElementsByClassName("mskmail");
+    Array.prototype.forEach.call(elementsByClassName, function (element) {
+        element.innerHTML = "<a href='mailto:" + masked + "'>" + masked + "</a>";
+    });
+    /*]]>*/
+</script>

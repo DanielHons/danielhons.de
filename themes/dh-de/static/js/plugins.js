@@ -11,7 +11,7 @@ async function swap(element, to) {
 }
 
 
-async function foo(id,stringList) {
+async function startTyping(id, stringList) {
     var i =0
     var intervalID = setInterval(function(){
         swap(document.getElementById(id),stringList[(i++)%(stringList.length)]);

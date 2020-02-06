@@ -1,0 +1,38 @@
+
+baseURL: "https://danielhons.de/"
+languageCode: "en-us"
+title: "Initio - Free, multipurpose html5 template by GetTemplate"
+theme: "dh-de"
+publishDir: "docs"
+
+paginate: 4
+
+params:
+    nameWithTitle: "Dipl. math. Daniel Hons"
+    name: "Daniel Hons"
+    description: "IT mit Leidenschaft"
+    email: "mail@danielhons.de"
+    phone: "+49 176 62 807 613"
+    address1: "Buchenhöhe 1"
+    address2: "50169 Kerpen"
+    taxNumber: "DE308862349"
+    year: 2020
+    avatar: "images/guy.jpg"
+    background: ""
+    DateForm: "02. Jan 2006"
+
+    jobRoles: ["Architekt","Qualitätssicherer","Anforderungsanalyst"]
+
+
+
+
+menu:
+    main:
+        - identifier: home
+          name: "Home"
+          pre: <i class='fa fa-heart'></i>
+          url: /
+          weight: -110
+        - name: "Blog"
+          url: "/post/"
+          weight: 5

@@ -1,0 +1,5 @@
+---
+aliases:
+    - /impressum.html
+menu:
+---

@@ -1,9 +1,11 @@
-+++
-date = "2019-10-12T12:00:00-00:00"
-title = "Aus der Ferne arbeiten"
-math = true
-image = "home-office.jpg"
-+++
+---
+date: "2019-10-12T12:00:00-00:00"
+title: "Aus der Ferne arbeiten"
+math: true
+image: "home-office.jpg"
+categories:
+- Nachhaltigkeit
+---
 
 Die flexible Wahl des Arbeitsortes hat viele Namen, wie Remote Work, Home-Office, Webworking, oder deutsch Telearbeit. 
 Obwohl unzählige Untersuchungen den Erfolg belegen und die Einsparungen an Ressourcen unbestritten sind, bleibt das Konzept hinter seinem Potential zurück.

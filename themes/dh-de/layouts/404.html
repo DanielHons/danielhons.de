@@ -1,0 +1,38 @@
+{{ partial "header.html" . }}
+<div class="container">
+    <!-- Page Heading/Breadcrumbs -->
+    <h1 class="mt-4 mb-3">
+        <span>404</span>
+        <small>Seite nicht gefunden</small>
+    </h1>
+
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+            <a href="/l">Home</a>
+        </li>
+        <li class="breadcrumb-item active">Fehler</li>
+    </ol>
+
+    <div class="jumbotron">
+        <h1 class="display-1">404</h1>
+        <p>Diese Anfrage konnte nicht beantwortet werden. Vielleicht finden Sie hier, was Sie suchen:</p>
+        <ul>
+            <li>
+                <a href="">Home</a>
+<!--                <ul>-->
+<!--                    <li><a href="/service.html">Service</a></li>-->
+<!--                    <li> Technologies-->
+<!--                        <ul>-->
+<!--                            <li th:each="technologyCategory : ${technologyCategories}"><a-->
+<!--                                    th:href="'/technologien/'+${technologyCategory.id}+'/'+${technologyCategory.title}"-->
+<!--                                    th:text="${technologyCategory.title}">1 Column Portfolio</a>-->
+<!--                            </li>-->
+<!--                        </ul>-->
+<!--                    </li>-->
+<!--                </ul>-->
+            </li>
+        </ul>
+    </div>
+    <!-- /.jumbotron -->
+</div>
+{{ partial "footer.html" . }}

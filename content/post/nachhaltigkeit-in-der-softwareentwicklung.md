@@ -3,6 +3,8 @@
 date: "2019-10-17T12:00:00-00:00"
 title: "Nachhaltige Softwareentwicklung"
 image: "green-energy.jpg"
+categories:
+- Nachhaltigkeit
 ---
 
 Die Entwicklung von Software verbraucht Resourcen. Durch den Betrieb der Rechner, inklusive Server für das Hosting von Werkzeugen für automatisierte Builds, Requirement- und 

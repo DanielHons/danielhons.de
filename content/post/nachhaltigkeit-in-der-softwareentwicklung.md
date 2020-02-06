@@ -5,6 +5,7 @@ title: "Nachhaltige Softwareentwicklung"
 image: "green-energy.jpg"
 categories:
 - Nachhaltigkeit
+- Softwarequalität
 ---
 
 Die Entwicklung von Software verbraucht Resourcen. Durch den Betrieb der Rechner, inklusive Server für das Hosting von Werkzeugen für automatisierte Builds, Requirement- und 

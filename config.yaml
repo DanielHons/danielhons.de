@@ -1,7 +1,7 @@
 
 baseURL: "https://danielhons-test.onrender.com/"
 languageCode: "en-us"
-title: "Initio - Free, multipurpose html5 template by GetTemplate"
+title: "Daniel Hons - Software für höchste Ansprüche"
 theme: "dh-de"
 publishDir: "docs"
 
@@ -16,15 +16,9 @@ params:
   address1: "Buchenhöhe 1"
   address2: "50169 Kerpen"
   taxNumber: "DE308862349"
-  year: 2020
   avatar: "images/guy.jpg"
   background: ""
   DateForm: "02. Jan 2006"
-  jobRoles: ["Architekt","Qualitätssicherer","Anforderungsanalyst"]
-  technologiesWithText: true
-
-
-
 
 menu:
     main:
@@ -33,11 +27,9 @@ menu:
           pre: <i class='fa fa-heart'></i>
           url: /
           weight: -110
-
         - name: "Blog"
           url: "/post/"
           weight: 5
-
         - name: "Service"
           url: "/service/"
           weight: 5

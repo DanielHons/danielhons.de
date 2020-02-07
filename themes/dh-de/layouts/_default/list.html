@@ -1,41 +1,52 @@
 {{ partial "header.html" . }}
+{{ .Content }}
+<div class="container">
 
-<main id="main">
+    <!-- Page Heading/Breadcrumbs -->
+    <h1 class="mt-4 mb-3">Blog Home Two
+        <small>Subheading</small>
+    </h1>
 
-    <div class="container">
-        <div class="row topspace">
-            <div class="col-sm-8 col-sm-offset-2">
+   {{ partial "breadcrumb.html" . }}
 
-                {{ range .Paginator.Pages }}
-                <article class="post">
-                    <header class="entry-header">
-                        <div class="entry-meta">
-                                                   <span class="posted-on">
-                                                      <time class="entry-date published" datetime="{{ .Date.Format .Site.Params.DateForm }}">
-                                                      {{- .Date.Format "January 2, 2006" -}}
-                                                      </time>
-                                                   </span>
-                        </div>
-                        <h1 class="entry-title"><a href="{{ .Permalink }}" rel="bookmark">{{ .Title }}</a></h1>
-                    </header>
-                    <div class="entry-content">
-                        {{ .Content }}
-                    </div>
-                </article>
-                {{ end }}
-
+    <!-- Blog Post -->
+    {{ range .Paginator.Pages }}
+    <div class="card mb-4">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-lg-6">
+                    <a href="#">
+                        <img class="img-fluid rounded" src="/images/{{ .Params.image}}" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="card-title">{{ .Title }}</h2>
+                    <p class="card-text">{{ .Summary }}</p>
+                    <a href="{{ .RelPermalink }}" class="btn btn-primary">Read More &rarr;</a>
+                </div>
             </div>
         </div>
+        <div class="card-footer text-muted">
+            <span class="posted-on">
+                <time class="entry-date published" datetime="{{ .Date.Format .Site.Params.DateForm }}">
+                    {{ .Date.Day }}. {{ index site.Data.months_german (printf "%d" .Date.Month) }} {{ .Date.Year }}
+                </time>
+            </span>
+            <a href="#">{{ .Site.Params.name }}</a>
+        </div>
+    </div>
+    {{ end }}
 
-        <center class="">
-            <ul class="pagination">
-                {{ template "_internal/pagination.html" . }}
-            </ul>
-        </center>
 
+    <!-- Pagination -->
+    <ul class="pagination justify-content-center mb-4">
+        <ul class="pagination">
+            {{ template "_internal/pagination.html" . }}
+        </ul>
+    </ul>
 
-    </div>	<!-- /container -->
+</div>
 
-</main>
+</div>
 
 {{ partial "footer.html" . }}

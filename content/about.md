@@ -2,7 +2,7 @@
 menu: "main"
 title: "About"
 type: "about"
-image: green-energy.jpg
+image: feierabend.jpg
 weight: 10
 ---
 

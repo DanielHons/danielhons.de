@@ -57,7 +57,7 @@
                             <ul class="list-unstyled mb-0">
                                 {{ range $index, $category := . }}
                                 {{ with $.Site.GetPage (printf "/%s/%s" $taxo $category) -}}
-                                <li><a href="{{ .Permalink }}">{{ $category }}</a></li>
+                                <li><a href="{{ .RelPermalink }}">{{ $category }}</a></li>
                                 {{- end -}}
                                 {{- end -}}
 

@@ -1,0 +1,39 @@
+{{ partial "header.html" . }}
+
+<div class="container">
+
+    <!-- Page Heading/Breadcrumbs -->
+    <h1 class="mt-4 mb-3">{{ .Title}}
+        <small>{{ .Params.subTitle}}</small>
+    </h1>
+
+    {{ partial "breadcrumb.html" . }}
+
+    {{ .Content }}
+
+    <!-- Blog Post -->
+    {{ range .Paginator.Pages }}
+    <div class="card mb-4">
+        <div class="card-header">
+            <div class="row">
+                <div class="col-lg-6">
+                    <a href="{{ .RelPermalink }}" class="btn btn-primary"> {{ .Title}} &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{ end }}
+
+
+    <!-- Pagination -->
+    <ul class="pagination justify-content-center mb-4">
+        <ul class="pagination">
+            {{ template "_internal/pagination.html" . }}
+        </ul>
+    </ul>
+
+</div>
+
+</div>
+
+{{ partial "footer.html" . }}

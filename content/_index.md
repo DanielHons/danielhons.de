@@ -7,6 +7,7 @@ menu:
 
 headline: 'Skalierbare Business-Anwendungen'
 subHeadline: "Moderne Software mit Köpfchen"
+technologiesWithText: true
 ---
 
 

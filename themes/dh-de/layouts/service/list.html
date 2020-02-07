@@ -1,0 +1,35 @@
+<!-- Page Content -->
+{{ partial "header.html" . }}
+<div class="container">
+  {{ partial "breadcrumb.html" . }}
+
+    <!-- Features Section -->
+    <div class="row">
+        <div class="col-lg-6">
+            {{ .Content }}
+        </div>
+        <div class="col-lg-6">
+            <img class="img-fluid rounded" src="/images/{{ .Params.image }}" alt="Full Service">
+        </div>
+    </div>
+    <!-- /.row -->
+
+    <div class="row">
+        {{ range .Pages }}
+        <div class="col-lg-4 mb-4">
+            <div class="card h-100">
+                <h4 class="card-header">{{ .Title }}</h4>
+                <div class="card-body">
+                    <p class="card-text">{{ .Summary }}</p>
+                </div>
+                <div class="card-footer">
+                    <a href="{{ .Permalink }}">Mehr Infos</a>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+    <!-- /.row -->
+
+</div>
+{{ partial "footer.html" . }}

@@ -1,27 +1,11 @@
 {{ partial "home-image.html" . }}
 <div class="container">
-    <h1 class="my-4">Skalierbare Business-Anwendungen</h1>
-    <h2>Moderne Software mit Köpfchen</h2>
+    <h1 class="my-4">{{ .Params.headline }}</h1>
+    <h2>{{ .Params.subHeadline }}</h2>
     <!-- Features Section -->
     <div class="row">
         <div class="col-lg-6">
-            <p>Ich bin freier Software-Ingenieur mit einer Spezialisierung auf Backendentwicklung im Cloud-Umfeld. Für die Architektur von Anwendungen greife ich auf einen umfangreichen und stetig wachsenden "Werkzeugkoffer" aus Services,
-                Tools und Plattformen zurück. Anstatt immer wieder das sprichwörtliche Rad neu zu erfinden, gehört es für mich zum Alltag, kreative vorhandene Lösungen zu recherchieren, evaluieren und bei Bedarf zur Lösung von Problemen zu integrieren.</p>
-            <p>Dabei setze ich im Wesentlichen auf die folgenden Technologien und Patterns:</p>
-            <ul>
-                <li>
-                    <strong>Microservices</strong>
-                </li>
-                <li>Docker</li>
-                <li>Spring Boot</li>
-                <li>Springframework</li>
-                <li>diverse Cloud Hosting Dienstleister</li>
-                <li>diverse Datenbanken (bevorzugt PostgreSQL)</li>
-            </ul>
-            <h3>Software im Wandel</h3>
-            <p>Die Welt der modernen Technologien ist oft kurzlebig. Gerade deshalb bedarf die Entwicklung von modernen Anwendung einer guten Kenntnis des aktuellen Standes
-                der Technik.</p>
-            <p>Im Folgenden liste ich die Technologien auf, die ich aktuell besonders häufig und gerne verwende. </p>
+            {{ .Content }}
         </div>
         <div class="col-lg-6">
             <img class="img-fluid rounded" src="/images/cloudcomputing.jpg" alt="Cloud Computing">
@@ -38,9 +22,11 @@
         <div class="col-lg-4 mb-4">
             <div class="card h-100">
                 <h4 class="card-header">{{ .name }}</h4>
+                {{ if .Site.Params.technologiesWithText }}
                 <div class="card-body">
                     <p class="card-text">{{.text}}</p>
                 </div>
+                {{ end }}
                 <div class="card-footer">
                     <div class="meter">
                         <span style="width: {{.rating}}%"></span>
@@ -53,17 +39,6 @@
     <!-- /.row -->
 
 
-    <!--/* No idea why, but this code causes the layout to jump a bit-->
-    <!--<h2>Test-Sektion</h2>-->
-    <!--<div class="row">-->
-    <!--&lt;!&ndash;/*@thymesVar id="things" type="de.danielhons.website.model.Technology"*/&ndash;&gt;-->
-    <!--<div-->
-    <!--th:each="technology : ${things}" th:include="fragments/card.html :: imageCard-list"-->
-    <!--th:remove="tag"-->
-    <!--th:with="name=${technology.name}, text=${technology.text}, href=${technology.href}">-->
-    <!--</div>-->
-    <!--</div>-->
-    <!-- /.row */-->
 
     <hr>
 

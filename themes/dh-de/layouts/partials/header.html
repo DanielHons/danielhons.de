@@ -22,6 +22,10 @@
 
     <!-- auto typing-->
     <script src="/js/plugins.js">z</script>
+
+    {{ if or .Params.math .Site.Params.math }}
+    {{ partial "math.html" . }}
+    {{ end }}
 </head>
 
 <body>

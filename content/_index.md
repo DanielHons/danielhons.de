@@ -4,17 +4,12 @@ menu:
   docs:
     parent: 'extras'
     weight: 20
-params:
-    roles: 
-    - Architekt
-    - Mutter
-    - Zwerg"
+
+headline: 'Skalierbare Business-Anwendungen'
+subHeadline: "Moderne Software mit Köpfchen"
 ---
 
 
-# Skalierbare Business-Anwendungen
-
-### Moderne Software mit Köpfchen
 Ich bin freier Software-Ingenieur mit einer Spezialisierung auf Backendentwicklung im Cloud-Umfeld. Für die Architektur von Anwendungen greife ich auf einen umfangreichen und stetig wachsenden "Werkzeugkoffer" aus Services, Tools und Plattformen zurück. Anstatt immer wieder das sprichwörtliche Rad neu zu erfinden, gehört es für mich zum Alltag, kreative vorhandene Lösungen zu recherchieren, evaluieren und bei Bedarf zur Lösung von Problemen zu integrieren.
 
 Dabei setze ich im Wesentlichen auf die folgenden Technologien und Patterns:

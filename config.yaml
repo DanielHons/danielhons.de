@@ -32,6 +32,11 @@ menu:
           pre: <i class='fa fa-heart'></i>
           url: /
           weight: -110
+
         - name: "Blog"
           url: "/post/"
+          weight: 5
+
+        - name: "Service"
+          url: "/service/"
           weight: 5

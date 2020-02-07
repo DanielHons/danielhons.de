@@ -15,7 +15,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <a href="#">
-                        <img class="img-fluid rounded" src="http://place-hold.it/750x300" alt="">
+                        <img class="img-fluid rounded" src="/images/{{ .Params.image}}" alt="">
                     </a>
                 </div>
                 <div class="col-lg-6">
@@ -31,7 +31,7 @@
                     {{ .Date.Day }}. {{ index site.Data.months_german (printf "%d" .Date.Month) }} {{ .Date.Year }}
                 </time>
             </span>
-            <a href="#">Start Bootstrap</a>
+            <a href="#">{{ .Site.Params.name }}</a>
         </div>
     </div>
     {{ end }}

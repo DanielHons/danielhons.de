@@ -44,3 +44,17 @@ Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesonde
 solche
 gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitte ich um einen
 entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werde ich derartige Inhalte umgehend entfernen.
+
+
+## Quellen
+
+#### Layout
+ - [Modern Business](https://github.com/BlackrockDigital/startbootstrap-modern-business) von BlackRockDigital
+ 
+#### Bilder
+ - Home / Titel: [REDPIXELPL/Shutterstock.com](https://www.shutterstock.com/g/REDPIXELPL)
+ - CloudComputing: [Funtab/Shutterstock.com](https://www.shutterstock.com/g/Panteleev+Aleksey)
+ - "Remote Work": [Rawpixel/Shutterstock.com](https://www.shutterstock.com/de/g/Rawpixel)
+ - "Full Service": [gguy/Shutterstock.com](https://www.shutterstock.com/de/g/gguy)
+ - "Wind Power": [Jem Sanchez](https://www.pexels.com/@jemsanchez)
+ - "Laptop on Bambus": [Ken Tomita](https://www.pexels.com/@ken-tomita-127057)

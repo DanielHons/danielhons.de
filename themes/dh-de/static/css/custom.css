@@ -1,6 +1,6 @@
 /* shorter version! */
 a[href*="//"]:not([href*="danielhons.de"]):after {
-    content: url(/images/Icon_External_Link.png);
+    content: url(/icon/Icon_External_Link.png);
     margin: 0 0 0 5px;
 }
 

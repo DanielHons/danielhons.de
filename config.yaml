@@ -20,6 +20,7 @@ params:
   background: ""
   DateForm: "02. Jan 2006"
 
+
 menu:
     main:
         - identifier: home

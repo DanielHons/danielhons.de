@@ -1,0 +1,7 @@
+{{ if isset .Params "image" }}
+<img class="img-fluid rounded" alt="Post Title Image"  src="/images/{{ .Params.image }}">
+{{ else }}
+
+<img class="img-fluid rounded" alt="Post Title Image" src="/images/{{ range (readDir "themes/dh-de/static/images" | shuffle | first 1) }}{{ .Name }}{{ end }}">
+{{ end  }}
+

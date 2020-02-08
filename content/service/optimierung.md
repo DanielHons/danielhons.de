@@ -1,6 +1,5 @@
 +++
 title = "Optimierung"
-math = true
 +++
 Wenn Ihre Software nicht nur eine gute, sondern die beste Antwort auf eine komplexe Fragen liefern soll, dann brauchen sie vielleicht mathematische Optimierung. Wenn Geschwindigkeit eine Rolle spielt, sogar ganz bestimmt.
 <!--more-->
@@ -11,4 +10,3 @@ So sollen häufig die Kosten zur Erreichung eines Ziels minimiert werden.
 
 Ich habe Erfahrung mit verschiedenen Algorithmen vor allem aus der Graphentheorie und der linearen (ganzzahligen) Optimierung, darunter A*, das Simplexverfahren, Branch and Cut sowie Branch and Price.
 
-$$ \frac{1}{n+\frac{1}{n+\frac{1}{n+\frac{1}{n+\frac{1}{n+1}}}}} =  \sum_{k=1}^n \frac{x^k}{k!} $$

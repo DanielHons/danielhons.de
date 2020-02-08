@@ -1,13 +1,10 @@
 {{ partial "header.html" . }}
 <div class="container">
 
-    <!-- Page Heading/Breadcrumbs -->
-    <h1 class="mt-4 mb-3">Blog Home Two
-        <small>Subheading</small>
-    </h1>
-
+   {{ partial "pagetitle.html" . }}
    {{ partial "breadcrumb.html" . }}
 
+    {{ .Content }}
     <!-- Blog Post -->
     {{ range .Paginator.Pages }}
     <div class="card mb-4">

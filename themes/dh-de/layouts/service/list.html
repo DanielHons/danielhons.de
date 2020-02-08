@@ -25,7 +25,11 @@
                     <p class="card-text">{{ .Summary }}</p>
                 </div>
                 <div class="card-footer">
+                    {{ if .Page.Params.hasMoreContent }}
                     <a href="{{ .RelPermalink }}">Mehr Infos</a>
+                    {{ else }}
+                    <a href="/impressum.html">Kontakt aufnehmen</a>
+                    {{ end }}
                 </div>
             </div>
         </div>

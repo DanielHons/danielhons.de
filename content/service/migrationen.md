@@ -1,5 +1,6 @@
 ---
 title: Migrationen von Altanwendungen
+hasMoreContent: true
 ---
 
 Bevor in die Jahre gekommene Software am Ende ihres Lebenszyklusses abgelöst werden kann, müssen Funktionalität und meist auch

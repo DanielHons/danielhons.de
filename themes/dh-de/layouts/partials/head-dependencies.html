@@ -1,0 +1,11 @@
+{{ if or .Params.math .Site.Params.math }}
+{{ partial "math.html" . }}
+{{ end }}
+{{ if .Site.Params.markExternalLinks }}
+<style>
+    a[href*="//"]:not([href*="{{ .Site.Params.domaintInternal}}"]):after {
+        content: url(/icon/Icon_External_Link.png);
+        margin: 0 0 0 5px;
+    }
+</style>
+{{ end }}

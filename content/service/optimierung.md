@@ -1,6 +1,7 @@
-+++
-title = "Optimierung"
-+++
+---
+title: "Optimierung"
+hasMoreContent: true
+---
 Wenn Ihre Software nicht nur eine gute, sondern die beste Antwort auf eine komplexe Fragen liefern soll, dann brauchen sie vielleicht mathematische Optimierung. Wenn Geschwindigkeit eine Rolle spielt, sogar ganz bestimmt.
 <!--more-->
 

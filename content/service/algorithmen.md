@@ -1,6 +1,6 @@
-+++
-title = "Algorithmen"
-+++
+---
+title: "Algorithmen"
+---
 
 Software muss oftmals komplexe Operationen auf komplexen Daten ausführen. Dazu ist eine exakte Analyse und Formulierung meist der notwendige erste Schritt. Mathematische Methoden können dabei stark unterstützen.
 <!--more-->

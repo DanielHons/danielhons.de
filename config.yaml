@@ -1,4 +1,3 @@
-
 baseURL: "https://danielhons-test.onrender.com/"
 languageCode: "en-us"
 title: "Daniel Hons - Software für höchste Ansprüche"
@@ -19,7 +18,9 @@ params:
   avatar: "images/guy.jpg"
   background: ""
   DateForm: "02. Jan 2006"
-
+  favicon: favicon.ico
+  markExternalLinks: true
+  domaintInternal: danielhons-test.onrender.com
 
 menu:
     main:

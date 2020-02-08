@@ -1,6 +1,7 @@
-+++
-title = "Datenmodellierung"
-+++
+---
+title: "Datenmodellierung"
+hasMoreContent: true
+---
 
 Daten sind im Business oft die langlebigste Komponente von Software. Gerade deshalb ist eine langfristige Planung und problemspezifische Modellierung besonders wichtig. 
 <!--more-->

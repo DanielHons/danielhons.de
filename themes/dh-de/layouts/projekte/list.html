@@ -1,0 +1,43 @@
+{{ partial "header.html" . }}
+
+<div class="container">
+
+
+    {{ partial "pagetitle.html" . }}
+    {{ partial "breadcrumb.html" . }}
+
+    {{ .Content }}
+
+    <!-- Blog Post -->
+    {{ range .Paginator.Pages }}
+    <div class="card mb-4">
+        <div class="card-body">
+            <div class="row">
+                <article class="post">
+                    <header class="entry-header">
+                        <div class="entry-meta">
+                        </div>
+                        <h3> {{ .Title }} </h3>
+                    </header>
+                    <div class="entry-content">
+                        {{ .Content }}
+                    </div>
+                </article><!-- #post-## -->
+            </div>
+        </div>
+    </div>
+    {{ end }}
+
+
+    <!-- Pagination -->
+    <ul class="pagination justify-content-center mb-4">
+        <ul class="pagination">
+            {{ template "_internal/pagination.html" . }}
+        </ul>
+    </ul>
+
+</div>
+
+</div>
+
+{{ partial "footer.html" . }}

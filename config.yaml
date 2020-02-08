@@ -1,5 +1,5 @@
 baseURL: "https://danielhons-test.onrender.com/"
-languageCode: "en-us"
+languageCode: "de-de"
 title: "Daniel Hons - Software für höchste Ansprüche"
 theme: "dh-de"
 publishDir: "docs"
@@ -29,9 +29,12 @@ menu:
           pre: <i class='fa fa-heart'></i>
           url: /
           weight: -110
-        - name: "Blog"
-          url: "/post/"
-          weight: 5
         - name: "Service"
           url: "/service/"
+          weight: 4
+        - name: "Projekte"
+          url: "/projekte/"
           weight: 5
+        - name: "Blog"
+          url: "/post/"
+          weight: 9

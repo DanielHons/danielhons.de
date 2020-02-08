@@ -2,11 +2,8 @@
 
 <div class="container">
 
-    <!-- Page Heading/Breadcrumbs -->
-    <h1 class="mt-4 mb-3">{{ .Title}}
-        <small>{{ .Params.subTitle}}</small>
-    </h1>
 
+    {{ partial "pagetitle.html" . }}
    {{ partial "breadcrumb.html" . }}
 
     {{ .Content }}

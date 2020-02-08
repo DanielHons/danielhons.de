@@ -1,5 +1,5 @@
 ---
-title: "Services"
+title: "Dienstleistungen"
 image: full_service.jpg
 
 ---

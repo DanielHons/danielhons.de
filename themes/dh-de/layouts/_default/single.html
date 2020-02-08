@@ -1,54 +1,26 @@
 {{ partial "header.html" . }}
+<div class="container">
+    <!-- Page Heading/Breadcrumbs -->
+    <h1 class="mt-4 mb-3">{{.Title}}
+        <small></small>
+    </h1>
 
-<main id="main">
+    {{ partial "breadcrumb.html" .}}
+	<div class="row">
 
-	<div class="container">
-		{{ partial "pagetitle.html" . }}
 
-		{{ partial "breadcrumb.html" . }}
-		<div class="row topspace">
-			<div class="col-sm-8 col-sm-offset-2">
 
- 				<article class="post">
-					<header class="entry-header">
- 						<div class="entry-meta">
- 						</div>
- 						<h1> {{ .Title }} </h1>
-					</header>
-					<div class="entry-content">
-						{{ .Content }}
-					</div>
-				</article><!-- #post-## -->
 
-			</div>
-		</div> <!-- /row post  -->
+	<!-- Features Section -->
+	<div class="col-lg-8">
+		{{ .Content }}
+    </div>
+	<div class="col-lg-4">
+		<img class="img-fluid rounded" src="http://place-hold.it/500x500" alt="">
+	</div>
+	</div>
 
-        <div class="row">
-			<div class="col-sm-8 col-sm-offset-2">
-
-				<div id="share">
-                    {{ if .Params.Share }}
-                       {{ partial "sharethis.html" . }}
-                    {{ end }}
-				</div>
-			</div>
-		</div> <!-- /row share -->
-		<div class="clearfix"></div>
-
-		<div class="row">
-			<div class="col-sm-8 col-sm-offset-2">
-
-				<div id="comments">
-                    {{ if .Params.Comments }}
-                       {{ partial "disqus.html" . }}
-                    {{ end }}
-				</div>
-			</div>
-		</div> <!-- /row comments -->
-		<div class="clearfix"></div>
-
-	</div>	<!-- /container -->
-
-</main>
+</div>
 
 {{ partial "footer.html" . }}
+{{ partial "email-address.html" . }}

@@ -84,7 +84,7 @@
     "id": 8,
     "name": "Docker",
     "text": "Docker ist mit seinen Teilprojekten wie Docker-Compose, Docker-Swarm und Docker-Machine DIE Plattform für Microservices und damit für mich DER Game-Changer des Jahrzehnts.",
-    "rating": 93,
+    "rating": 83,
     "href": null,
     "hreftext": null,
     "tags": [
@@ -284,7 +284,7 @@
     "id": 25,
     "name": "Kubernetes",
     "text": "Die Orchestrierung von Containern wird durch Kubernetes vereinfacht. Es entwickelt sich bei den großen Cloudanbietern derzeit zum Industriestandard.",
-    "rating": 60,
+    "rating": 85,
     "href": null,
     "hreftext": null,
     "tags": [
@@ -306,7 +306,7 @@
     "id": 27,
     "name": "Docker Compose",
     "text": "Leichtgewichtigt und dennoch recht umfangreich, eignet sich Docker Compose besonders für Entwicklungsumgebungen und einfache Deployments.",
-    "rating": 80,
+    "rating": 76,
     "href": null,
     "hreftext": null,
     "tags": [
@@ -498,6 +498,18 @@
     "tags": [
       "JSON",
       "Java",
+      "Tools"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Hugo",
+    "text": "Unglaublisch performanter und vielseitiger Generator für statische Seiten. Diese Seite wird mit Hugo erstellt.",
+    "rating": 90,
+    "href": null,
+    "hreftext": null,
+    "tags": [
+      "Website",
       "Tools"
     ]
   }

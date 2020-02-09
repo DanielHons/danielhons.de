@@ -18,5 +18,6 @@ In dieser Zeit entstanden unter seiner fachlichen Führung zahlreiche Lösungen 
 Seit 2016 berät er Firmenkunden auf freiberuflicher Basis zu einem breiten Themengebiet rund um die Erstellung effizienter und nachhaltiger Software, mit einem Fokus auf Webanwendungen.
 
 
-[^1]: via. Co-Authorship mit Prof. Dr. Y. Guo in:
+[^1]: via. Co-Authorship mit Prof. Dr. Y. Guo[^2] in:
 K. Lamberts, C. Merkens, R. Wang, U. Englert, D. Hons, S. Grüter, Y. Guo, S. Porsche, A. Hamacher, D. Bündgens and T. Kuhlen, [GTECS3D](http://www.gtecs.rwth-aachen.de/?page=references): A new Program for Graphtheoretical Evaluation of extended Network Structures, Zeitschrift für Kristallographie Supplement Issue No. 32, 2012, 117
+[^2]: [collaboration distance calculator](https://mathscinet.ams.org/mathscinet/freeTools.html?version=2)

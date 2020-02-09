@@ -15,8 +15,9 @@ Seine Erdös-Nummer ist 3[^1].
 Von 2013 bis 2016 war er als Entwickler und Berater für Softwarequalitätssicherung in Festanstellung tätig. 
 In dieser Zeit entstanden unter seiner fachlichen Führung zahlreiche Lösungen zur GUI-Testautomatisierung.
 
-Seit 2016 berät er Firmenkunden auf freiberuflicher Basis zu einem breiten Themengebiet rund um die Erstellung effizienter und nachhaltiger Software, mit einem Fokus auf Webanwendungen.
+Seitdem berät er Firmenkunden auf freiberuflicher Basis zu einem breiten Themengebiet rund um die Erstellung effizienter und nachhaltiger Software, mit einem Fokus auf Webanwendungen.
 
+Als Mitglied unterstützt Daniel Hons seit Sommer 2019 die Mobilitätsplaner von [Team Red](https://www.team-red.net/index.php?id=29) zu Digitalisierungsthemen.
 
 [^1]: via. Co-Authorship mit Prof. Dr. Y. Guo[^2] in:
 K. Lamberts, C. Merkens, R. Wang, U. Englert, D. Hons, S. Grüter, Y. Guo, S. Porsche, A. Hamacher, D. Bündgens and T. Kuhlen, [GTECS3D](http://www.gtecs.rwth-aachen.de/?page=references): A new Program for Graphtheoretical Evaluation of extended Network Structures, Zeitschrift für Kristallographie Supplement Issue No. 32, 2012, 117

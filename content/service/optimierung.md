@@ -1,13 +1,16 @@
 ---
 title: "Optimierung"
 hasMoreContent: true
+math: true
 ---
-Wenn Ihre Software nicht nur eine gute, sondern die beste Antwort auf eine komplexe Fragen liefern soll, dann brauchen sie vielleicht mathematische Optimierung. Wenn Geschwindigkeit eine Rolle spielt, sogar ganz bestimmt.
+Entwicklung von Algorithmen zur ermittlung optimaler Ergebnisse, bspw. Kostenminimierung durch Methoden der *Operations Research*:
+* branch and bound
+* **branch and cut & branch and price**
+* **A&ast;**
+* uvm.
 <!--more-->
-
-Jeder kennt Navigationssysteme, die uns "die kürzeste" und "die schnellste" Route vorschlagen. Dort kann es, wie es wohl auch leider jeder kennt, zu unvorhergesehenen Störungen, wie gesperrten Straßen oder Staus kommen. 
-Bei perfekten Daten liefern die Algorithmen der Navigationssysteme allerdings auch wirklich perfekte Ergebnisse (jedenfalls für die kürzeste Strecke, die nicht vom Fahrstil abhängt). Für optimale Antworten gibt es viele Anwendungsfälle.
-So sollen häufig die Kosten zur Erreichung eines Ziels minimiert werden.
-
-Ich habe Erfahrung mit verschiedenen Algorithmen vor allem aus der Graphentheorie und der linearen (ganzzahligen) Optimierung, darunter A*, das Simplexverfahren, Branch and Cut sowie Branch and Price.
+Wenn Ihre Software nicht nur eine gute, sondern die beste Antwort auf eine komplexe Fragen liefern soll, dann brauchen sie vielleicht mathematische Optimierung. 
+Wenn Geschwindigkeit eine Rolle spielt, sogar ganz bestimmt.
+Von Navigationssystemen kennen wir die Frage nach der schnellsten und kürzesten Route.
+In vielen anderen Bereichen fragen wir nach einer besten, sichersten oder kostengünstigsten, eben einer *optimalen* Lösung eines Problems
 

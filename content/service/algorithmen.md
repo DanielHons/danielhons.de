@@ -2,7 +2,7 @@
 title: "Algorithmen"
 ---
 
-Software muss oftmals komplexe Operationen auf komplexen Daten ausführen. Dazu ist eine exakte Analyse und Formulierung meist der notwendige erste Schritt. Mathematische Methoden können dabei stark unterstützen.
+Problemspezifische, effiziente Algorithmen nach Maß
 <!--more-->
 
 Um die für Ihren Anwendungsfall passenden Algorithmen zu erstellen, analysiere ich Ihr Problem von Grund auf. Welche (Eingabe-) Daten werden benötigt? 

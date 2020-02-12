@@ -5,8 +5,8 @@
             &copy; {{ now.Format "2006"}} {{ .Site.Params.name }}
             - Alle Rechte vorbehalten. <br/>
             <span class="small">
-            <a href="/datenschutz.html">Datenschutzerklärung</a> |
-            <a href="/impressum.html">Impressum</a>
+            <a href="{{ relref . "impressum/datenschutz.md" }}">Datenschutzerklärung</a> |
+            <a href="{{ relref . "impressum/_index.md" }}">Impressum</a>
           </span>
         </p>
     </div>

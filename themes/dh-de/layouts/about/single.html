@@ -16,7 +16,13 @@
 		{{ .Content }}
     </div>
 	<div class="col-lg-4">
-		<img class="img-fluid rounded" src="/images/daniel.jpg" alt="">
+		<figure>
+			<img class="img-fluid rounded" src="/images/daniel.jpg" alt="Daniel Hons">
+			<figcaption>Daniel Hons, <small style="color: forestgreen" id="my-role"></small></figcaption>
+		</figure>
+		<script>
+			startTyping("my-role",{{ .Site.Data.rolenames }})
+		</script>
 	</div>
 	</div>
 

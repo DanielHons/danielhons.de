@@ -4,7 +4,13 @@ image: full_service.jpg
 
 ---
 ### Schlüsselfertige Anwendungen
-Ich biete eine breite Dienstleistungspalette von der Erfassung von Anforderungen bis zur Bereitstellung der fertigen Software in der Cloud, mit
+Mit einer breiten Dienstleistungspalette bringen wir Ihre Vision an den Kunden. 
+
+Ich begleite den Entwicklungsprozess ganzheitlich
+von der Erfassung von Anforderungen bis hin zum Rollout, auch in die Cloud.
+  
+Verlassen Sie sich auf eine solgfältige und zeitgemäße Auswahl an Technologien und Werkzeugen.
+Ob **Website**, **Mobile App** oder eine API mit
 Features wie **auto-scaling** und **self-healing**. Bei größeren Projekten finde ich kompetete Unterstützung in meinem Netzwerk.
 
 ### Beratung

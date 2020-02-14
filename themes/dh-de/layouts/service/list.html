@@ -28,7 +28,7 @@
                     {{ if .Page.Params.hasMoreContent }}
                     <a href="{{ .RelPermalink }}">Mehr Infos</a>
                     {{ else }}
-                    <a href="/impressum.html">Kontakt aufnehmen</a>
+                    <a href="{{ relref . "/impressum/_index.md"}}">Kontakt aufnehmen</a>
                     {{ end }}
                 </div>
             </div>

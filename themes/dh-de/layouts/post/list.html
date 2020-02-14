@@ -28,7 +28,7 @@
                     {{ .Date.Day }}. {{ index site.Data.months_german (printf "%d" .Date.Month) }} {{ .Date.Year }}
                 </time>
             </span>
-            <a href="#">{{ .Site.Params.name }}</a>
+            <a href="{{ relref . "../about.md"}}">{{ .Site.Params.name }}</a>
         </div>
     </div>
     {{ end }}

@@ -13,10 +13,7 @@
     </div>
     <!-- /.row -->
 
-    <!-- Marketing Icons Section -->
-    <h3>Auszug aus der Werkzeugkiste</h3>
-    <p>Hier finden Sie einen Auszug aus der umfangreichen Liste der Tools, die aktuell von mir bevorzugt werden.</p>
-    <p>Weitere Technologien sind auf Unterseiten aufgezählt, eine Gesamtübersicht nach Tags sortiert finden Sie <a href="/tags.html">hier</a>.</p>
+
     <div class="row">
         {{ range first 9 (sort .Site.Data.technologies "rating" "desc") }}
         <div class="col-lg-4 mb-4">

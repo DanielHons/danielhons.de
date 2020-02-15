@@ -127,16 +127,11 @@ Die Bereitstellung Ihrer personenbezogenen Daten erfolgt freiwillig. Wir können
 #### SSL-Verschlüsselung
 Um die Sicherheit Ihrer Daten bei der Übertragung zu schützen, verwenden wir dem aktuellen Stand der Technik entsprechende Verschlüsselungsverfahren (z. B. SSL) über HTTPS.
 
+<!---
 #### Eingesetzte Auftragsverarbeiter
 Folgende Organisationen, Unternehmen bzw. Personen wurden vom Betreiber dieser Website mit der Verarbeitung von Daten beauftragt:
+--->
 
-    TrafficPlex GmbH
-    Konsul-Smidt-Str. 90
-    28217 Bremen, Deutschland
-
-    Hetzner Online GmbH
-    Industriestr. 25
-    91710 Gunzenhausen, Deutschland
 
 #### Änderung unserer Datenschutzbestimmungen
 Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder um Änderungen unserer Leistungen in der Datenschutzerklärung umzusetzen, z.B. bei der Einführung neuer Services. Für Ihren erneuten Besuch gilt dann die neue Datenschutzerklärung.

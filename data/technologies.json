@@ -201,7 +201,7 @@
     "id": 18,
     "name": "Thymeleaf",
     "text": "Die Template Engine Thymeleaf gehört zu den wenigen Frontend-Technolgien, mit denen ich wirklich gerne arbeite. Perfekte Integration in das Springframework, sowie recht gute Unterstützung für IntelliJ.",
-    "rating": 88,
+    "rating": 70,
     "href": null,
     "hreftext": null,
     "tags": [
@@ -409,7 +409,7 @@
     "id": 36,
     "name": "Swift",
     "text": "App-Entwicklung für IOS ist für mich die aktuell neueste Technologie.",
-    "rating": 77,
+    "rating": 85,
     "href": null,
     "hreftext": null,
     "tags": [

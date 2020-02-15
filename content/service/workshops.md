@@ -3,7 +3,7 @@ title: "Workshops"
 hasMoreContent: false
 ---
 
-Workshops zu verschiedenen Themen der Qualitätssicherung.
+Verschiedene Workshops zur Entwicklung und Qualitätssicherung von Software
 
 <!--more-->
 

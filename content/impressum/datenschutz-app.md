@@ -6,7 +6,7 @@ adelsTitel: "Contact"
 
 ## Privacy Policy
 
-Daniel Hons as developer of the app Liquation. This software product is meant to be a commercial software. This SERVICE is provided by Daniel Hons and is intended for use as is.
+Daniel Hons as developer of the app *Liquations*. This software product is meant to be a commercial software. This SERVICE is provided by Daniel Hons and is intended for use as is.
 
 This page is used to inform visitors regarding our policies with the collection, use, and/or disclosure of Personal Information if anyone decided to use my Service.
 

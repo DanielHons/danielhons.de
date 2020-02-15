@@ -2,7 +2,7 @@
 title: "Algorithmen"
 ---
 
-Problemspezifische, effiziente Algorithmen nach Maß
+Problemspezifische, effiziente Algorithmen nach Maß.
 <!--more-->
 
 Um die für Ihren Anwendungsfall passenden Algorithmen zu erstellen, analysiere ich Ihr Problem von Grund auf. Welche (Eingabe-) Daten werden benötigt? 

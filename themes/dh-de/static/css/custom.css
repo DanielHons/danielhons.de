@@ -41,3 +41,10 @@
     margin: 15px 0;
     padding: 20px;
 }
+
+
+blockquote {
+    padding: 10px;
+    font-size: small;
+    border: thin solid blue;
+}

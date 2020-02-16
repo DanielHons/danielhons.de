@@ -19,7 +19,7 @@ Dabei setze ich im Wesentlichen auf die folgenden Technologien und Patterns:
 - diverse Datenbanken (bevorzugt PostgreSQL)
 --->
 
-### Vorrausschauende Planung
+### Vorausschauende Planung
 Die Welt der modernen Technologien ist oft kurzlebig. Gerade deshalb bedarf die Entwicklung von modernen Anwendung einer guten Kenntnis des aktuellen Standes der Technik.
 Ich bleibe für Sie am Ball und wähle den zum konkreten Projekt am besten passenden Technologiestack aus.
 

@@ -1,4 +1,6 @@
 ---
+aliases:
+    - /service.html
 title: Home
 headline: 'Skalierbare Business-Anwendungen'
 subHeadline: "Moderne Software mit Köpfchen"

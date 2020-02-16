@@ -1,6 +1,6 @@
 ---
 date: "2019-10-12T12:00:00-00:00"
-title: "Aus der Ferne arbeiten"
+title: "Digital gegen den Pendelverkehr"
 math: true
 image: "work-at-home.jpg"
 categories:

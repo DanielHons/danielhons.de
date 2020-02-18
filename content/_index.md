@@ -5,6 +5,7 @@ title: Home
 headline: 'Skalierbare Business-Anwendungen'
 subHeadline: "Moderne Software mit Köpfchen"
 technologiesWithText: true
+description: "Software nach Maß ☆ Business-Anwendungen✓ CloudComputing✓ MicroServices✓ Professionelle Softwareentwicklung in Kerpen, Köln und Remote ."
 ---
 
 
@@ -25,6 +26,4 @@ Dabei setze ich im Wesentlichen auf die folgenden Technologien und Patterns:
 Die Welt der modernen Technologien ist oft kurzlebig. Gerade deshalb bedarf die Entwicklung von modernen Anwendung einer guten Kenntnis des aktuellen Standes der Technik.
 Ich bleibe für Sie am Ball und wähle den zum konkreten Projekt am besten passenden Technologiestack aus.
 
-### Technologien (Auswahl/Trends)
-Hier finden Sie eine Auswahl an Softwarekomponenten, die in meinem Portfolio derzeit besonders stark vertreten sind. Bitte beachten Sie, dass diese Aufzählung nicht vollständig ist und
-das eine Erwähnung nicht automatisch eine Empfehlung bedeutet. Ich wähle Technologien grundsätzlich nach projektspezifischen Kriterien aus.  
+ 

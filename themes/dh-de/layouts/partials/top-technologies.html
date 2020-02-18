@@ -1,0 +1,21 @@
+<h3> Technologien (Auswahl/Trends)</h3>
+<p>Hier finden Sie eine Auswahl an Softwarekomponenten, die in meinem Portfolio derzeit besonders stark vertreten sind. Bitte beachten Sie, dass diese Aufzählung nicht vollständig ist und
+    das eine Erwähnung nicht automatisch eine Empfehlung bedeutet. Ich wähle Technologien grundsätzlich nach projektspezifischen Kriterien aus.</p>
+<div class="row">
+    {{ range first 9 (sort .Site.Data.technologies "rating" "desc") }}
+    <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+            <h4 class="card-header">{{ .name }}</h4>
+            <div class="card-body">
+                <p class="card-text">{{.text}}</p>
+            </div>
+            <div class="card-footer">
+                <div class="meter">
+                    <span style="width: {{.rating}}%"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{ end }}
+</div>
+<!-- /.row -->

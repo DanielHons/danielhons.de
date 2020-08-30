@@ -1,9 +1,12 @@
 ---
-title: "Workshops"
+title: "Wissenstransfer"
 hasMoreContent: false
 ---
 
-Verschiedene Workshops zur Entwicklung und Qualitätssicherung von Software
+* Training on the Job
+* Workshops
+    - Entwicklung
+    - Qualitätssicherung
 
 <!--more-->
 

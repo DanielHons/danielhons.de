@@ -1,5 +1,9 @@
 {{ partial "home-image.html" . }}
 <div class="container">
+    <div class="row mb-4 mt-4">
+        {{ partial "question-searchinput.html" . }}
+    </div>
+    <hr>
     <h1 class="my-4">{{ .Params.headline }}</h1>
     <!-- Features Section -->
     <div class="row mb-4">
@@ -16,10 +20,7 @@
         {{ .Content }}
     </div>
 
-    <div class="row mb-4">
-        {{ partial "question-searchinput.html" . }}
-    </div>
-    <hr>
+
     <div class="row mb-4">
         {{ partial "testimonials.html" . }}
     </div>

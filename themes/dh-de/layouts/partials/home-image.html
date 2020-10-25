@@ -1,6 +1,7 @@
+{{- $image := resources.Get "images/title-head.jpg" -}}
 <header>
     <div>
-        <div class="carousel-item active" style="background-image: url('/images/title-head.jpg')">
+        <div class="carousel-item active" style="background-image: url('{{ $image.Permalink }}')">
             <div class="carousel-caption d-none d-md-block">
                 <h3>Softwareentwicklung mit Leidenschaft</h3>
                 <p>Funktional. Effizient. Elegant.</p>

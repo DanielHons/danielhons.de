@@ -21,7 +21,8 @@ async function startTyping(id, stringList) {
 
 const stayTimeout = 1000;
 
-const typeDelay = 50;
+const typeDelay = 40;
+const deleteDelay = 20
 
 function setDirection(element) {
     if (element.clientWidth < element.scrollWidth) {
@@ -42,7 +43,7 @@ async function insertInputTemporary(element, stringList, index) {
     }
     await new Promise(r => setTimeout(r, stayTimeout));
     for (; i >= 0; i--) {
-        await new Promise(r => setTimeout(r, typeDelay));
+        await new Promise(r => setTimeout(r, deleteDelay));
         element.value = element.value.substr(0, i)
         setDirection(element)
     }

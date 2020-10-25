@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-{{ $mainJs := resources.Get "/js/plugins.js" | minify | fingerprint }}
 
 <head>
     <title>{{.Page.Title}} {{if gt (len .Site.Title) 0}} | {{end}} {{.Site.Title}}</title>
@@ -11,9 +10,7 @@
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="/css/modern-business.css" rel="stylesheet">
-    <link href="/css/custom.css" rel="stylesheet">
+
 
     <link rel="shortcut icon" href="{{ .Site.BaseURL }}{{ .Site.Params.favicon }}">
     <link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-touch-icon.png">
@@ -21,9 +18,12 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png">
 <!--    <link rel="manifest" href="/site.webmanifest">-->
 
-
+    {{ $mainJs := resources.Get "/js/plugins.js" | minify | fingerprint }}
+    {{ $myCss := resources.Get "/css/custom.css" | minify | fingerprint }}
+    {{ $modernBusiness := resources.Get "/css/modern-business.css" | minify | fingerprint }}
     <script src="{{ $mainJs.Permalink }}" integrity="{{ $mainJs.Data.Integrity }}"></script>
-
+    <link href="{{ $myCss.Permalink }}" integrity="{{ $myCss.Data.Integrity }}"   rel="stylesheet">
+    <link href="{{ $modernBusiness.Permalink }}" integrity="{{ $modernBusiness.Data.Integrity }}" rel="stylesheet">
     {{ partial "head-dependencies.html" . }}
 
 

@@ -8,7 +8,9 @@
     <!-- Features Section -->
     <div class="row mb-4">
         <div class="col-lg-6 col-lg-push-6 mb-4">
-            <img class="img-fluid rounded" src="/images/swlifecycle.png" alt="Vollständiger Software-Lebenszyklus">
+            {{- $image := resources.Get "images/sw-lifecycle.png" -}}
+            {{ $image = $image.Resize "600x400" }}
+            <img class="img-fluid rounded" src="{{ $image.Permalink }}" alt="Vollständiger Software-Lebenszyklus">
         </div>
         <div class="col-lg-6">
             {{ partial "home-services.html" . }}

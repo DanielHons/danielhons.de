@@ -5,7 +5,11 @@ theme: "dh-de"
 publishDir: "docs"
 
 paginate: 4
-
+taxonomies:
+  category: categories
+  skill: skills
+  service: services
+  phase: phases
 params:
   nameWithTitle: "Dipl. math. Daniel Hons"
   name: "Daniel Hons"

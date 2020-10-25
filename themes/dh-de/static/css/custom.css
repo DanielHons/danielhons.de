@@ -61,3 +61,12 @@ blockquote:before {
 blockquote p {
     display: inline;
 }
+
+
+#dummy_search_field {
+    width: 100%;
+    padding: 4px;
+    font-size: 110%;
+    border-radius: 20px;
+    color: blue;
+}

@@ -1,0 +1,10 @@
+<ul>
+    {{ range (.Site.Data.home_services) }}
+    <li>
+        <h4>{{ .title }}</h4>
+    </li>
+    {{ end }}
+</ul>
+<a class="btn btn-lg btn-secondary btn-block" href="/service">Alle Dienstleistungen</a>
+
+

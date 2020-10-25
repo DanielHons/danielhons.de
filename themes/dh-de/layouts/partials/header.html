@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{{ $mainJs := resources.Get "/js/plugins.js" | minify | fingerprint }}
 
 <head>
     <title>{{.Page.Title}} {{if gt (len .Site.Title) 0}} | {{end}} {{.Site.Title}}</title>
@@ -20,8 +21,8 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png">
 <!--    <link rel="manifest" href="/site.webmanifest">-->
 
-    <!-- auto typing-->
-    <script src="/js/plugins.js"></script>
+
+    <script src="{{ $mainJs.Permalink }}" integrity="{{ $mainJs.Data.Integrity }}"></script>
 
     {{ partial "head-dependencies.html" . }}
 

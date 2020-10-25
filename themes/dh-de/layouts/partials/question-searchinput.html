@@ -1,0 +1,10 @@
+<div class="col-md-8">
+    <input id="dummy_search_field" type="search" placeholder="Search..." readonly width="200" dir="rtl">
+</div>
+<div class="col-md-4">
+    <a class="btn btn-secondary btn-block btn-sm mt-1" href="impressum.html">Kontakt aufnehmen</a>
+</div>
+
+<script>
+    startTypingSearchField("dummy_search_field",{{ .Site.Data.project_questions }})
+</script>

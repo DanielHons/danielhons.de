@@ -1,7 +1,5 @@
 {{ $contactFormScript := resources.Get "/js/contactForm.js" | minify | fingerprint }}
-{{ $jQuery := resources.Get "/js/jquery.min.js" | minify | fingerprint }}
 <script defer src="{{ $contactFormScript.Permalink }}" integrity="{{ $contactFormScript.Data.Integrity }}"></script>
-<script defer src="{{ $jQuery.Permalink }}" integrity="{{ $jQuery.Data.Integrity }}"></script>
 <script>
     let contactFormEndpoint = {{ .Site.Params.contactFormEndpoint }};
 </script>
@@ -16,24 +14,24 @@
     }
 </style>
 <script></script>
-<form id="contact-form" class="" style="width: 50%; margin-bottom: 20px">
-    <label for="cTypeGroup">Ich bin</label>
+<form id="contact-form" class="mb-2">
+    <label for="cTypeGroup">Ich bin *</label>
     <div id="cTypeGroup" class="form-group">
-        <div class="optionGroup">
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="cType" id="cTypeRadio1"
-                       value="PrivateCustomer">
-                <label class="form-check-label" for="cTypeRadio1">Privatkunde</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="cType" id="cTypeRadio2"
-                       value="BusinessCustomer">
-                <label class="form-check-label" for="cTypeRadio2">Geschäftskunde</label>
-            </div>
+        <div class="optionGroup" onclick="updateDisplayedHints()">
             <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="cType" id="cTypeRadio3"
                        value="Recruiter">
                 <label class="form-check-label" for="cTypeRadio3">Personaldienstleister</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="cType" id="cTypeRadio1"
+                       value="PrivateCustomer">
+                <label class="form-check-label" for="cTypeRadio1">Privatperson</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="cType" id="cTypeRadio2"
+                       value="BusinessCustomer">
+                <label class="form-check-label" for="cTypeRadio2" >Geschäftskunde</label>
             </div>
         </div>
         <div class="invalid-feedback">
@@ -41,7 +39,7 @@
         </div>
     </div>
     <div class="form-group">
-        <label for="formInputName">Name</label>
+        <label for="formInputName">Name *</label>
         <input type="text" class="form-control" id="formInputName" placeholder="Ihr Name">
         <div class="invalid-feedback">
             Bitte geben Sie Ihren Namen ein
@@ -51,6 +49,9 @@
     <div class="form-group">
         <label for="formInputCompany">Firma</label>
         <input type="text" class="form-control" id="formInputCompany" placeholder="Ihre Firma">
+        <div class="invalid-feedback">
+            Pflichtfeld für gewerbliche Anfragen
+        </div>
     </div>
     <div class="form-group">
         <label for="formInputPhone">Telefonnummer</label>
@@ -60,7 +61,7 @@
         </div>
     </div>
     <div class="form-group">
-        <label for="formInputEmail">Email</label>
+        <label for="formInputEmail">Email *</label>
         <input type="text" class="form-control" id="formInputEmail" placeholder="ich@meine-firma.de">
         <div class="invalid-feedback">
             Bitte geben Sie eine gültige E-Mail-Addresse ein
@@ -68,7 +69,7 @@
     </div>
 
 
-    <label for="rqActionGroup">Gewünschte Antwort</label>
+    <label for="rqActionGroup">Gewünschte Antwort *</label>
     <div id="rqActionGroup" class="form-group">
         <div class="optionGroup">
             <div class="form-check form-check-inline">
@@ -90,14 +91,14 @@
     </div>
 
     <div class="form-group purple-border">
-        <label for="formMessage">Nachricht</label>
+        <label for="formMessage">Nachricht *</label>
         <textarea class="form-control" id="formMessage" rows="3"></textarea>
         <div class="invalid-feedback">
             Bitte geben Sie eine Nachricht ein
         </div>
     </div>
     <div class="small">
-        Mit dem Versand des Formulars stimmen Sie der Speicherung der eingegebenen Daten für einen bgrenzten Zeitraum zu. Nähere Informationen finden Sie in der <a href="/datenschutz.html">Datenschutzerklärung</a>
+        Mit dem Versand des Formulars stimmen Sie der zeitlich begrenzten Speicherung der eingegebenen Daten zu. Nähere Informationen finden Sie in der <a href="/datenschutz.html">Datenschutzerklärung</a>
     </div>
     <hr>
     <button type="button" class="btn btn-dark" onclick="submitToAPI()">Senden</button>

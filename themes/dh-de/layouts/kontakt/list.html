@@ -6,8 +6,37 @@
     </h1>
 
     {{ partial "breadcrumb.html" .}}
-
-    {{ partial "contact-form.html" . }}
+    <style>
+        .hidden{
+            visible: false;
+            display: none;
+        }
+    </style>
+    <div class="row">
+        <div class="col-md-6">
+            {{ partial "contact-form.html" . }}
+        </div>
+        <div class="col-md-6 pl-5">
+            <div class="hidden" id="hintPrivate">
+                <h4>Hinweise für Privatpersonen</h4>
+                <p>Ich bin ausschließlich im B2B-Bereich tätig, biete meine Dienstleistung also Privatpersonen nicht
+                    an.</p>
+                <p>Sie können dennoch dieses Formular nutzen, um Kontakt aufzunehmen. Bei dieser Option ist das Feld
+                    "Firma" kein Pflichtfeld.</p>
+            </div>
+            <div class="hidden" id="hintRecruiter">
+                <h4>Hinweise für Personaldienstleister</h4>
+                <p>Bitte kontaktieren Sie mich nur für <b>konkrete</b> Projektanfragen, die den folgenden Kriterien entsprechen:</p>
+                <ul>
+                    <li>Keine Festanstellungen</li>
+                    <li>Insbesondere keine Arbeitnehmerüberlassung ("ANÜ") oder ähnliche Modelle anderer Länder</li>
+                    <li>Projektstart frühestens zwei Monate in der Zukunft</li>
+                    <li>Nicht unter 50% remote</li>
+                </ul>
+                <p>Ich versende keine Whitelabel Profile im Word- oder PDF-Format. </p>
+            </div>
+        </div>
+    </div>
 
 
 </div>

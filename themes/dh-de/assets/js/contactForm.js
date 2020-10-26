@@ -22,15 +22,15 @@ function submitToAPI(e) {
     let rqAction = $('input[name=rqAction]:checked').val();
 
     // Validation
-    isValid = setValidationMaker($("#cTypeGroup"),cTypeSelected===undefined) && isValid
-    isValid = setValidationMaker($("#rqActionGroup"),rqAction===undefined) && isValid
-    isValid = setValidationMaker(nameInput,!Namere.test(nameInput.val())) && isValid
-    isValid = setValidationMaker(emailInput,emailInput.val() === "" || !reemail.test(emailInput.val())) && isValid
-    isValid = setValidationMaker(messageInput,messageInput.val()==="") && isValid
+    isValid = setValidationMaker($("#cTypeGroup"), cTypeSelected === undefined) && isValid
+    isValid = setValidationMaker($("#rqActionGroup"), rqAction === undefined) && isValid
+    isValid = setValidationMaker(nameInput, !Namere.test(nameInput.val())) && isValid
+    isValid = setValidationMaker(emailInput, emailInput.val() === "" || !reemail.test(emailInput.val())) && isValid
+    isValid = setValidationMaker(messageInput, messageInput.val() === "") && isValid
     // Only required for action "CALL_BACK
-    isValid = setValidationMaker(phoneInput,rqAction==="CALL_BACK" && !mobilere.test(phoneInput.val())) && isValid
+    isValid = setValidationMaker(phoneInput, rqAction === "CALL_BACK" && !mobilere.test(phoneInput.val())) && isValid
     // Only required for business contacts
-    isValid = setValidationMaker(companyInput,cTypeSelected!=="PrivateCustomer" && !mobilere.test(phoneInput.val())) && isValid
+    isValid = setValidationMaker(companyInput, cTypeSelected !== "PrivateCustomer" && !mobilere.test(phoneInput.val())) && isValid
     if (!isValid) {
         return;
     }
@@ -56,23 +56,45 @@ function submitToAPI(e) {
 
         success: function () {
             // clear form and show a success message
-            alert("Successfull");
+            alert("Ihre Nachricht wurde erfolgreich versendet. Vielen Dank.");
             document.getElementById("contact-form").reset();
             location.reload();
         },
         error: function () {
             // show an error message
-            alert("UnSuccessfull");
+            alert("Ups - da ist was schief gelaufen.");
         }
     });
 }
 
 
 function setValidationMaker(element, isInvalid) {
-    if (isInvalid){
+    if (isInvalid) {
         element.addClass(INVALID_CLASS)
     } else {
         element.removeClass(INVALID_CLASS)
     }
     return !isInvalid
 }
+
+
+function updateDisplayedHints() {
+    let cType = $('input[name=cType]:checked').val();
+    console.log(cType)
+    let hintPrivate = $("#hintPrivate");
+    let hintRecruiter = $("#hintRecruiter");
+    switch (cType) {
+        case "Recruiter":
+            hintPrivate.hide()
+            hintRecruiter.show()
+            break;
+        case "PrivateCustomer":
+            hintPrivate.show()
+            hintRecruiter.hide()
+            break;
+        default:
+            hintPrivate.hide()
+            hintRecruiter.hide()
+    }
+}
+

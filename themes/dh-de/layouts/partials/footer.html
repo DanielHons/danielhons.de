@@ -14,8 +14,11 @@
 </footer>
 
 <!-- Bootstrap core JavaScript -->
-{{/*<script src="/vendor/jquery/jquery.min.js"></script>*/}}
-{{/*<script src="/js/bootstrap.bundle.min.js"></script>*/}}
+{{ $jQuery := resources.Get "/js/jquery.min.js" | minify | fingerprint }}
+<script defer src="{{ $jQuery.Permalink }}" integrity="{{ $jQuery.Data.Integrity }}"></script>
+{{ $bootstrapJS := resources.Get "/js/bootstrap.bundle.min.js" | minify | fingerprint }}
+<script defer src="{{ $bootstrapJS.Permalink }}" integrity="{{ $bootstrapJS.Data.Integrity }}"></script>
+
 
 
 </body>

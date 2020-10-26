@@ -1,0 +1,16 @@
+{{ partial "header.html" . }}
+<div class="container">
+    <!-- Page Heading/Breadcrumbs -->
+    <h1 class="mt-4 mb-3">{{.Title}}
+        <small></small>
+    </h1>
+
+    {{ partial "breadcrumb.html" .}}
+
+    {{ partial "contact-form.html" . }}
+
+
+</div>
+
+{{ partial "footer.html" . }}
+{{ partial "email-address.html" . }}

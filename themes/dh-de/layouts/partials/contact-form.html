@@ -1,0 +1,104 @@
+{{ $contactFormScript := resources.Get "/js/contactForm.js" | minify | fingerprint }}
+{{ $jQuery := resources.Get "/js/jquery.min.js" | minify | fingerprint }}
+<script defer src="{{ $contactFormScript.Permalink }}" integrity="{{ $contactFormScript.Data.Integrity }}"></script>
+<script defer src="{{ $jQuery.Permalink }}" integrity="{{ $jQuery.Data.Integrity }}"></script>
+<script>
+    let contactFormEndpoint = {{ .Site.Params.contactFormEndpoint }};
+</script>
+<style>
+    .form-group.is-invalid .optionGroup {
+        border: 1px solid crimson;
+    }
+
+    .form-group.is-invalid .invalid-feedback {
+        visibility: visible;
+        display: block;
+    }
+</style>
+<script></script>
+<form id="contact-form" class="" style="width: 50%; margin-bottom: 20px">
+    <label for="cTypeGroup">Ich bin</label>
+    <div id="cTypeGroup" class="form-group">
+        <div class="optionGroup">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="cType" id="cTypeRadio1"
+                       value="PrivateCustomer">
+                <label class="form-check-label" for="cTypeRadio1">Privatkunde</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="cType" id="cTypeRadio2"
+                       value="BusinessCustomer">
+                <label class="form-check-label" for="cTypeRadio2">Geschäftskunde</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="cType" id="cTypeRadio3"
+                       value="Recruiter">
+                <label class="form-check-label" for="cTypeRadio3">Personaldienstleister</label>
+            </div>
+        </div>
+        <div class="invalid-feedback">
+            Eine Option muss gewählt werden
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="formInputName">Name</label>
+        <input type="text" class="form-control" id="formInputName" placeholder="Ihr Name">
+        <div class="invalid-feedback">
+            Bitte geben Sie Ihren Namen ein
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="formInputCompany">Firma</label>
+        <input type="text" class="form-control" id="formInputCompany" placeholder="Ihre Firma">
+    </div>
+    <div class="form-group">
+        <label for="formInputPhone">Telefonnummer</label>
+        <input type="text" class="form-control" id="formInputPhone" placeholder="0123123123">
+        <div class="invalid-feedback">
+            Bitte geben Sie Ihre Telefonnummer ein. (Zeichen: Ziffern und -)
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="formInputEmail">Email</label>
+        <input type="text" class="form-control" id="formInputEmail" placeholder="ich@meine-firma.de">
+        <div class="invalid-feedback">
+            Bitte geben Sie eine gültige E-Mail-Addresse ein
+        </div>
+    </div>
+
+
+    <label for="rqActionGroup">Gewünschte Antwort</label>
+    <div id="rqActionGroup" class="form-group">
+        <div class="optionGroup">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="rqAction" value="EMAIL">
+                <label class="form-check-label" for="inlineRadio1">Email</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="rqAction" value="CALL_BACK">
+                <label class="form-check-label" for="inlineRadio3">Rückruf</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="rqAction" value="VIDEO_CONFERENCE">
+                <label class="form-check-label" for="inlineRadio3">Videokonferenz</label>
+            </div>
+        </div>
+        <div class="invalid-feedback">
+            Eine Option muss gewählt werden
+        </div>
+    </div>
+
+    <div class="form-group purple-border">
+        <label for="formMessage">Nachricht</label>
+        <textarea class="form-control" id="formMessage" rows="3"></textarea>
+        <div class="invalid-feedback">
+            Bitte geben Sie eine Nachricht ein
+        </div>
+    </div>
+    <div class="small">
+        Mit dem Versand des Formulars stimmen Sie der Speicherung der eingegebenen Daten für einen bgrenzten Zeitraum zu. Nähere Informationen finden Sie in der <a href="/datenschutz.html">Datenschutzerklärung</a>
+    </div>
+    <hr>
+    <button type="button" class="btn btn-dark" onclick="submitToAPI()">Senden</button>
+</form>

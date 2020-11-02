@@ -12,10 +12,10 @@
 
     {{/*    Icons   */}}
     <link rel="shortcut icon" href="{{ .Site.BaseURL }}{{ .Site.Params.favicon }}">
-    {{ $icon512 := resources.Get "/icon-512x512.png" }}
-    {{ $icon32 := $icon512.Resize "x32"}}
-    {{ $icon16 := $icon512.Resize "x16"}}
-    {{ $iconAppleTouch := $icon512.Resize "x180"}}
+    {{ $iconRaw := resources.Get "/dhLogo.png" }}
+    {{ $icon32 := $iconRaw.Resize "x32"}}
+    {{ $icon16 := $iconRaw.Resize "x16"}}
+    {{ $iconAppleTouch := $iconRaw.Resize "x180"}}
     <link rel="apple-touch-icon" sizes="180x180" href="{{ $iconAppleTouch.Permalink }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ $icon32.Permalink }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ $icon16.Permalink }}">
@@ -37,9 +37,11 @@
 <!-- Navigation -->
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-        <!--        <img src="/logo.png" alt="Logo"/>-->
-        <a class="navbar-brand" href="/">{{ .Site.Params.nameWithTitle }}</a>
-
+        <div id="logo-wrapper">
+            {{ $logo := $iconRaw.Resize "x55"}}
+            <img src="{{ $logo.Permalink }}" alt="Logo"/>
+            <a class="navbar-brand" href="/">{{ .Site.Params.nameWithTitle }}</a>
+        </div>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation">

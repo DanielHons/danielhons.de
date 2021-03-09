@@ -1,8 +1,13 @@
 [
   {
-    "weight": -10,
+    "weight": 0,
     "author": "Dipl.-Ing. Hans-Georg Glöckler, Systemadministrator am Institut für Neuroinformatik an der Universität Ulm",
     "text": "Daniel Hons kenne ich jetzt seit zwei Jahren. In unserem Institut programmieren viele wissenschaftliche Mitarbeiter, Herr Hons ist meines Erachtens definitiv einer der besten Programmierer, die mir je begegnet sind! Er ist hochintelligent, kreativ, hat eine sehr schnelle Auffassungsgabe und analysiert komplexe Probleme vollumfängliche. Er vermittelt Wissen anschaulich, systematisch und leicht verständlich. Bei Problemen ist er ein zuverlässiger Ansprechpartner und löst diese nach aktuellem Stand der Technik."
+  },
+  {
+    "weight": -1,
+    "author": "Dipl.-Ing. Klaus Zöggeler, Digital Research & Development Leader, INNIO Jenbacher  GmbH & Co OG",
+    "text": "Herr Hons besticht in unseren Projekten durch seine Motivation bei der effizienten Umsetzung der Aufgabenstellungen und ist dabei stets bedacht, für alle Problemstellungen möglichst zuverlässige und wartbare Implementierungen anzubieten"
   },
   {
     "weight": 99,

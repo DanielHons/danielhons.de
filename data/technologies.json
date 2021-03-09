@@ -130,8 +130,8 @@
   },
   {
     "id": 12,
-    "name": "Oracle",
-    "text": "Oft besonders in größeren Unternehmen fest gesetzte Datenbank.",
+    "name": "Oracle SQL",
+    "text": "Enterprise Datenbank.",
     "rating": 45,
     "href": null,
     "hreftext": null,
@@ -142,7 +142,7 @@
   {
     "id": 13,
     "name": "MySQL / MariaDB",
-    "text": "Bis ungefärt 2014 die hauptsächlich von mir verwendete Datenbank.",
+    "text": "Beliebte OpenSource Datenbank",
     "rating": 50,
     "href": null,
     "hreftext": null,
@@ -479,7 +479,7 @@
   {
     "id": 42,
     "name": "Jenkins",
-    "text": "",
+    "text": "Pioniersoftware für die Automatisierung von Builds und Deployments.",
     "rating": 76,
     "href": null,
     "hreftext": null,
@@ -491,7 +491,7 @@
   {
     "id": 43,
     "name": "Jackson",
-    "text": "",
+    "text": "Java Library zum Serialisieren in und Deserialisieren von JSON",
     "rating": 67,
     "href": null,
     "hreftext": null,
@@ -502,7 +502,7 @@
     ]
   },
   {
-    "id": 43,
+    "id": 44,
     "name": "Hugo",
     "text": "Unglaublich performanter und vielseitiger Generator für statische Seiten. Diese Seite wird mit Hugo erstellt.",
     "rating": 90,
@@ -511,6 +511,19 @@
     "tags": [
       "Website",
       "Tools"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "ORY Stack",
+    "text": "In GO geschriebene Lösungen für Identity und Access Management mit smarter Architektur. Teilweise noch im Alpha-Stadium",
+    "rating": 90,
+    "href": "https://ory.sh",
+    "hreftext": "ory.sh",
+    "tags": [
+      "Architektur",
+      "Web",
+      "Security"
     ]
   }
 ]

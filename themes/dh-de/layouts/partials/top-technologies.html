@@ -2,7 +2,7 @@
 <p>Hier finden Sie eine Auswahl an Softwarekomponenten, die in meinem Portfolio derzeit besonders stark vertreten sind. Bitte beachten Sie, dass diese Aufzählung nicht vollständig ist und
     das eine Erwähnung nicht automatisch eine Empfehlung bedeutet. Ich wähle Technologien grundsätzlich nach projektspezifischen Kriterien aus.</p>
 <div class="row">
-    {{ range first 9 (sort .Site.Data.technologies "rating" "desc") }}
+    {{ range first 90 (sort .Site.Data.technologies "rating" "desc") }}
     <div class="col-lg-4 mb-4">
         <div class="card h-100">
             <h4 class="card-header">{{ .name }}</h4>

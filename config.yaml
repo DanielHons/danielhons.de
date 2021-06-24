@@ -7,7 +7,7 @@ enableRobotsTXT: true
 paginate: 4
 
 taxonomies:
-  technology: technologies
+  technology: technologien
 
 params:
   nameWithTitle: "Dipl. math. Daniel Hons"

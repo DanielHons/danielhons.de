@@ -1,5 +1,11 @@
 ---
 title: "Software zur Erfassung, Prüfung und steuerlichen Behandlung geldwerter Vorteile"
+technologien:
+- Spring-Boot
+- Angular
+- Docker
+- Kubernetes
+- Jenkins
 ---
 
 Die Software  wurde von einem früheren Dienstleister nach zwei Jahren Entwicklung unvollständig an meinen Kunden übergeben. 
@@ -14,9 +20,3 @@ Nach neun Monaten ging die Anwendung live und ist bis heute in Betrieb.
 - Architektur
 - Implementierung (Backend)
 
-##### Technologien:
-- Spring-Boot
-- (Angular)
-- Docker
-- Kubernetes
-- Jenkins

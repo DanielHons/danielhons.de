@@ -1,5 +1,12 @@
 ---
 title: "GitOps: CI/CD pipeline für mehrere Scrum Teams"
+technologien:
+- Bash
+- Jenkins
+- argocd
+- Kubernetes
+- Git
+- AWS
 ---
 
 Im Zuge einer Migration wurde nach Synergien zwischen mehreren Scrum-Teams bei einer Vereinheitlichung der CI/CD-Pipelines ermittelt und in einer 
@@ -12,9 +19,4 @@ wobei auf ein umfangreiches bereits vorhandenes Build-Script in Form eines Gradl
 - Konzeption
 - Implementierung
 
-##### Technologien:
-- Bash
-- Jenkins
-- argocd
-- Kubernetes
-- Git
+

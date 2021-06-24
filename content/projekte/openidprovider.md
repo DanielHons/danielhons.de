@@ -1,5 +1,10 @@
 ---
 title: "Integration von OpenID in ein bestehendes Altsystem"
+technologien:
+- ORY Hydra
+- Go
+- Postgres
+- Go Templates
 ---
 Durch das Hinzufügen einer OpenID Schnittstelle an eine bestehende Software wurde die nötige Voraussetzung für künftige Modularisierung und Skalierung geschaffen.
 
@@ -11,8 +16,3 @@ UI für das Self Management (auf Basis von Go Template).
 - Architektur
 - Entwicklung
 
-##### Technologien:
-- ORY Hydra
-- Go
-- Postgres
-- Go Templates

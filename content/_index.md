@@ -1,7 +1,7 @@
 ---
 title: Home
 headline: 'Automatisierung zu Ende denken'
-technologiesWithText: true
+technologienWithText: true
 description: "Software nach Maß ☆ Business-Anwendungen✓ CloudComputing✓ MicroServices✓ Professionelle Softwareentwicklung in Kerpen, Köln und Remote ."
 ---
 

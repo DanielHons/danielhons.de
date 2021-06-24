@@ -1,0 +1,48 @@
+{{ partial "header.html" . }}
+
+
+<div class="container">
+
+
+    <h1 class="mt-4 mb-3">Technologien
+        <small>Programmiersprachen, Tools, Frameworks...</small>
+    </h1>
+    {{ partial "breadcrumb.html" . }}
+
+    <!--
+         https://www.sidorenko.io/post/2017/07/nice-tagcloud-with-hugo/
+         Credits to Artem Sidorenko.
+
+    -->
+    <div id="theme-tagcloud" class="row mb-4">
+        {{ if not (eq (len $.Site.Taxonomies.technologien) 0) }}
+        {{ $fontUnit := "rem" }}
+        {{ $largestFontSize := 2.0 }}
+        {{ $largestFontSize := 2.5 }}
+        {{ $smallestFontSize := 1.0 }}
+        {{ $fontSpread := sub $largestFontSize $smallestFontSize }}
+        {{ $max := add (len (index $.Site.Taxonomies.technologien.ByCount 0).Pages) 1 }}
+        {{ $min := len (index $.Site.Taxonomies.technologien.ByCount.Reverse 0).Pages }}
+        {{ $spread := sub $max $min }}
+        {{ $fontStep := div $fontSpread $spread }}
+
+        <div id="tag-cloud" style="padding: 5px 15px">
+            {{ range $name, $taxonomy := $.Site.Taxonomies.technologien }}
+            {{ $currentTagCount := len $taxonomy.Pages }}
+            {{ $currentFontSize := (add $smallestFontSize (mul (sub $currentTagCount $min) $fontStep) ) }}
+            {{ $count := len $taxonomy.Pages  }}
+            {{ $weigth := div (sub (math.Log $count) (math.Log $min)) (sub (math.Log $max) (math.Log $min)) }}
+            {{ $currentFontSize := (add $smallestFontSize (mul (sub $largestFontSize $smallestFontSize) $weigth) ) }}
+            <!--Current font size: {{$currentFontSize}}-->
+            <a href="{{ "/technologien/" | relLangURL }}{{ $name | urlize }}"
+            style="font-size:{{$currentFontSize}}{{$fontUnit}}">{{ $name }}</a>
+            {{ end }}
+        </div>
+        {{ end }}
+
+    </div>
+
+</div>
+
+
+{{ partial "footer.html" . }}

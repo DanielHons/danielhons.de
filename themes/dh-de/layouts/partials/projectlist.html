@@ -1,0 +1,30 @@
+{{ range .Paginator.Pages }}
+<div class="card mb-4">
+    <div class="card-body">
+        <div class="row">
+            <article class="post">
+                <header class="entry-header">
+                    <div class="entry-meta">
+                    </div>
+                    <h3> {{ .Title }} </h3>
+                </header>
+                <hr/>
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="entry-content">
+                            {{ .Content }}
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h6>Technologien:</h6>
+                        {{ range $name, $taxonomy := .Page.Params.technologien }}
+                        <a class="mr-2 d-inline-block" title="Projekte mit {{ $taxonomy }}" href="{{ "/technologien/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+                        {{ end }}
+
+                    </div>
+                </div>
+            </article><!-- #post-## -->
+        </div>
+    </div>
+</div>
+{{ end }}

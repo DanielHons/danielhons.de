@@ -1,5 +1,10 @@
 ---
 title: "Last- und Performancetest für den Onlineshop einer Baumarktkette"
+technologien:
+- JMeter
+- Java
+- JSON
+- Beanshell
 ---
 
 Nach dem Relaunch eines Webshops war dessen Verhalten unter Last zu testen und analysieren. Da lediglich grobe Durchschnittswerte 
@@ -12,8 +17,4 @@ Zusätzlich zu den Performance-Tests mit relaistisch kalkulierter Last wurden Ov
 - Erhebung der KPI (Key Performance Indicators)
 - Implementierung des Last- und Performancetests
 
-##### Technologien:
-- JMeter
-- Java
-- JSON
-- Beanshell
+

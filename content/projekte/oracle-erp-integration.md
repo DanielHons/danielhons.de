@@ -1,5 +1,11 @@
 ---
 title: "Integration eines Aufgabenmanagements mit Oracle ERP"
+technologien:
+- Spring Boot
+- Oracle ERP
+- Oracle RDBMS
+- AWS
+- MySQL
 ---
 
 Eine Software mit einem Modul zur Aufgabenverwaltung (Eigenentwiclung) soll unter gewissen Umständen synchron zu einer 
@@ -10,7 +16,4 @@ Aufgrund der potentiell großen Datenmengen spielt die Effizienz der Logik in di
 
 ##### Beitrag
 - Solution Design & Entwicklung
-##### Technologien:
-- Spring Boot
-- Oracle ERP
-- Oracle RDBMS
+

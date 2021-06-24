@@ -1,7 +1,11 @@
 ---
 title: "IOT-Platform: Planung von Wartungsarbeiten für Industrieanlagen"
-technologies:
-
+technologien:
+- Java
+- Spring-Boot
+- Cassandra
+- Redis
+- REST
 ---
 
 Für eine IOT Platform zur Vernetzung großer Industrieanlagen habe ich einen Algorithmus entwickelt, der basierend auf
@@ -14,9 +18,3 @@ Performance-Betrachtungen eine besondere Rolle. Erreicht wurde ein Performancege
 - Implementierung
 - Performance-Optimierung
 
-##### Technologien:
-- Java
-- Spring-Boot
-- Cassandra
-- Redis
-- REST

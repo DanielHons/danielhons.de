@@ -1,5 +1,9 @@
 ---
 title: "Algorithmische Analyse chemischer Kristallstrukturen"
+technologien:
+- Analytische Graphentheorie
+- C++
+- Visual Studio
 ---
 Mithilfe einer eigens entwickelten Software wurde es möglich, Dateien in einem Standardformat für kristallographische Strukturen (CIF) einzulesen, 
 automatisiert zu untersuchen und übersichtlich anzuzeigen. Ein besonderer Schwerpunkt liegt auf der Berechnung topologischer Symbole zur Charakterisierung von 
@@ -11,8 +15,3 @@ Die Software GTECS3D, die auf der Bibliothek aufsetzt, kann auf der [Produkthome
 - Konzeption
 - Algorithmenentwicklung
 - Implementierung
-
-##### Technologien:
-- Analytische Graphentheorie
-- C++
-- Visual Studio

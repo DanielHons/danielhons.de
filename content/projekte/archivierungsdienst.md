@@ -1,5 +1,8 @@
 ---
 title: Backend zur Archivierung vernetzter Daten
+technologien:
+- Spring-Boot
+- Neo4j
 ---
 
 Die REST-API nimmt Dateien und Metadaten von verschiedenen Clients entgegen, führt die Dateien einer Langeitarchivierung zu. 
@@ -11,6 +14,4 @@ des Archivs nach verschiedenen Kriterien ermöglicht.
 - Anforderungsanalyse
 - Implementierung
 
-##### Technologien:
-- Spring-Boot
-- Neo4j
+

@@ -11,7 +11,15 @@ Auf Kubernetes wurde verzichtet.
 Zusätzlich wurden dem Entwicklerteam Skripte zum Testdatenmanagement bereitgestellt.
 
 ##### Beitrag
-Ist-Analyse, Konzeption & Entwicklung
+- Ist-Analyse
+- Konzeption & Entwicklung
 
 ##### Technologien:
-Docker, Docker Compose, Influx, Mongo, Bash, Bitbucket Pipelines, SSH, Linux
+- Docker
+- Docker Compose
+- Influx
+- Mongo
+- Bash
+- Bitbucket Pipelines
+- SSH
+- Linux

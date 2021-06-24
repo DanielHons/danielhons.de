@@ -9,7 +9,11 @@ Aus diesen entstand ein JMeter-Plugin.
 Zusätzlich zu den Performance-Tests mit relaistisch kalkulierter Last wurden Overload und Fail-Over-Szenarien durchgeführt.
 
 ##### Beitrag
-Erhebung der KPI (Key Performance Indicators), Implementierung des Last- und Performancetests
+- Erhebung der KPI (Key Performance Indicators)
+- Implementierung des Last- und Performancetests
 
 ##### Technologien:
-JMeter, Java, JSON, Beanshell
+- JMeter
+- Java
+- JSON
+- Beanshell

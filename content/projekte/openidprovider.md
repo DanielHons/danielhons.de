@@ -7,7 +7,12 @@ Da die bestehenden Lösungen voll abwärtskompatibel weiterbetrieben wurden, kam
 UI für das Self Management (auf Basis von Go Template).
 
 ##### Beitrag
-Konzeption, Architektur, Entwicklung
+- Konzeption
+- Architektur
+- Entwicklung
 
 ##### Technologien:
-ORY Hydra, Go, Postgres, Go Templates
+- ORY Hydra
+- Go
+- Postgres
+- Go Templates

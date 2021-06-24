@@ -9,6 +9,8 @@ Dazu ist die Synchronisation mehrere Entitäten notwendig.
 Aufgrund der potentiell großen Datenmengen spielt die Effizienz der Logik in diesem Projekt eine zentrale Rolle.
 
 ##### Beitrag
-Solution Design & Entwicklung
+- Solution Design & Entwicklung
 ##### Technologien:
-Spring Boot, Oracle ERP, Oracle RDBMS
+- Spring Boot
+- Oracle ERP
+- Oracle RDBMS

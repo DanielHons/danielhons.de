@@ -7,7 +7,10 @@ Verlinkungen zu diesen Dateien werden mit den Metadaten in einer Graphdatenbank 
 des Archivs nach verschiedenen Kriterien ermöglicht.
 
 ##### Beitrag
-Datenmodellierung, Anforderungsanalyse, Implementierung
+- Datenmodellierung
+- Anforderungsanalyse
+- Implementierung
 
 ##### Technologien:
-Spring-Boot, Neo4j
+- Spring-Boot
+- Neo4j

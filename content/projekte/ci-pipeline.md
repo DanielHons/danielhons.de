@@ -8,7 +8,13 @@ wobei auf ein umfangreiches bereits vorhandenes Build-Script in Form eines Gradl
 
 
 ##### Beitrag
-Beratung, Konzeption, Implementierung
+- Beratung
+- Konzeption
+- Implementierung
 
 ##### Technologien:
-Bash, Jenkins, argocd, Kubernetes, Git
+- Bash
+- Jenkins
+- argocd
+- Kubernetes
+- Git

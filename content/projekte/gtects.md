@@ -8,7 +8,11 @@ Strukturen – modelliert durch periodische (gerichtete) Graphen. Alle implement
 Die Software GTECS3D, die auf der Bibliothek aufsetzt, kann auf der [Produkthomepage](http://www.gtecs.rwth-aachen.de/?page=references) kostenlos heruntergeladen werden.
 
 ##### Beitrag
-Konzeption, Algorithmenentwicklung, Implementierung
+- Konzeption
+- Algorithmenentwicklung
+- Implementierung
 
 ##### Technologien:
-Analytische Graphentheorie, C++, Visual Studio
+- Analytische Graphentheorie
+- C++
+- Visual Studio

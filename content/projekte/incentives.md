@@ -9,7 +9,14 @@ die aktuellen Anforderungen mit dem Stand der Implementierung abgeglichen wurden
 Nach neun Monaten ging die Anwendung live und ist bis heute in Betrieb.
 
 ##### Beitrag
-Beratung, Anforderungserhebung, Architektur, Implementierung
+- Beratung zur Softwareentwicklung und Qualitätssicherung
+- Analyse von Anforderungen, auch zur Erhebung
+- Architektur
+- Implementierung (Backend)
 
 ##### Technologien:
-Spring-Boot, Angular, Docker, Kubernetes, Jenkins
+- Spring-Boot
+- (Angular)
+- Docker
+- Kubernetes
+- Jenkins

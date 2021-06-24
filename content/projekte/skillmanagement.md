@@ -6,7 +6,12 @@ Mit dieser Software im Auftrag einer Beratungsgesellschaft ist es möglich, den 
 einer fundierten Datenbasis auszuwählen. Dabei werden die verschiedenen Ausprägungen in einem Spinweb-Diagramm graphisch dargestellt.
 
 ##### Beitrag
-Anforderungsanalyse, Solutiondesign, Implementierung
+- Anforderungsanalyse
+- Solutiondesign
+- Implementierung
 
 ##### Technologien:
-REST, PHP, SQL, JavaScript (JQuery)
+- REST
+- PHP
+- SQL
+- JavaScript (JQuery)

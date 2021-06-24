@@ -7,10 +7,7 @@ enableRobotsTXT: true
 paginate: 4
 
 taxonomies:
-  category: categories
-  skill: skills
-  service: services
-  phase: phases
+  technology: technologies
 
 params:
   nameWithTitle: "Dipl. math. Daniel Hons"

@@ -1,5 +1,7 @@
 ---
 title: "IOT-Platform: Planung von Wartungsarbeiten für Industrieanlagen"
+technologies:
+
 ---
 
 Für eine IOT Platform zur Vernetzung großer Industrieanlagen habe ich einen Algorithmus entwickelt, der basierend auf
@@ -7,7 +9,14 @@ Daten aus unterschiedlichen Quellen die Vorausplanung von Wartungsarbeiten über
 Performance-Betrachtungen eine besondere Rolle. Erreicht wurde ein Performancegewinn von über 1000% gegenüber der vorherigen Lösung.
 
 ##### Beitrag
-Anforderungs- und Datenanalyse, Anlgorithmenentwicklung, Implementierung, Performance-Optimierung
+- Anforderungs- und Datenanalyse
+- Anlgorithmenentwicklung
+- Implementierung
+- Performance-Optimierung
 
 ##### Technologien:
-Java, Spring-Boot, Cassandra, Redis, REST
+- Java
+- Spring-Boot
+- Cassandra
+- Redis
+- REST

@@ -1,5 +1,7 @@
 ---
 title: "Verwaltungssoftware für Vorlesungen und mathematische Dokumente"
+begin: 2009
+duration: 24 Monate
 technologien:
 - PHP (4,5)
 - Apache

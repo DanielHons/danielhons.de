@@ -1,5 +1,7 @@
 ---
 title: Backend zur Archivierung vernetzter Daten
+begin: 2013
+duration: 4 Monate
 technologien:
 - Spring-Boot
 - Neo4j

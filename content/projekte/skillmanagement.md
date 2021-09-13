@@ -1,5 +1,7 @@
 ---
 title: "Mitarbeiter-Skillmanagement"
+begin: 2015
+duration: 5 Monate
 technologien:
 - REST
 - PHP

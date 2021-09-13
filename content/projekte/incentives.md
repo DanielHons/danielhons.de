@@ -1,5 +1,7 @@
 ---
 title: "Software zur Erfassung, Prüfung und steuerlichen Behandlung geldwerter Vorteile"
+begin: 2018
+duration: 13 Monate
 technologien:
 - Spring-Boot
 - Angular

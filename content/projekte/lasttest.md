@@ -1,5 +1,7 @@
 ---
 title: "Last- und Performancetest für den Onlineshop einer Baumarktkette"
+begin: 2013
+duration: 2 Monate
 technologien:
 - JMeter
 - Java

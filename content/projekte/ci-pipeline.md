@@ -1,5 +1,7 @@
 ---
 title: "GitOps: CI/CD pipeline für mehrere Scrum Teams"
+begin: 2019
+duration: 4 Monate
 technologien:
 - Bash
 - Jenkins

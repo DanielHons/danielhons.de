@@ -1,5 +1,7 @@
 ---
 title: "Integration von OpenID in ein bestehendes Altsystem"
+begin: 2020
+duration: 2 Monate
 technologien:
 - ORY Hydra
 - Go

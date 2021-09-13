@@ -1,5 +1,7 @@
 ---
 title: "Aufbau einer Entwicklungs- und Staging-Umgebung"
+begin: 2021
+duration: 2 Monate
 technologien:
 - Docker
 - Docker Compose

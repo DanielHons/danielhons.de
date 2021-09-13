@@ -1,5 +1,7 @@
 ---
 title: "Integration eines Aufgabenmanagements mit Oracle ERP"
+begin: 2020
+duration: 3 Monate
 technologien:
 - Spring Boot
 - Oracle ERP

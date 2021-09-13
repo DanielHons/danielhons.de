@@ -1,5 +1,7 @@
 ---
 title: "IOT-Platform: Planung von Wartungsarbeiten für Industrieanlagen"
+begin: 2019
+duration: 8 Monate
 technologien:
 - Java
 - Spring-Boot

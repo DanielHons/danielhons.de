@@ -1,5 +1,7 @@
 ---
 title: "Algorithmische Analyse chemischer Kristallstrukturen"
+begin: 2013
+duration: 18 Monate
 technologien:
 - Analytische Graphentheorie
 - C++

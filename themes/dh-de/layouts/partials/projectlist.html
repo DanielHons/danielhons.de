@@ -16,6 +16,15 @@
                         </div>
                     </div>
                     <div class="col-md-3">
+                        {{ if  (isset .Page.Params "begin") }}
+                        <h6>Beginn: {{  .Page.Params.begin }}</h6>
+                        {{ end }}
+                        {{ if  (isset .Page.Params "duration") }}
+                        <h6>Dauer: {{  .Page.Params.duration }}</h6>
+                        {{ end }}
+                        {{ if  (isset .Page.Params "begin") | or (isset .Page.Params "duration")  }}
+                        <hr/>
+                        {{ end }}
                         <h6>Technologien:</h6>
                         {{ range $name, $taxonomy := .Page.Params.technologien }}
                         <a class="mr-2 d-inline-block" title="Projekte mit {{ $taxonomy }}" href="{{ "/technologien/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>

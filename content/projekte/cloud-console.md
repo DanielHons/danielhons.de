@@ -1,5 +1,7 @@
 ---
 title: Architektur & Datenmodell für ein Cloud-Kundenportal
+begin: 2021
+duration: 3 Monate
 technologien:
 - MicroServices
 - Swagger

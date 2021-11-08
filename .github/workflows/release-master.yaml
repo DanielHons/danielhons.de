@@ -1,5 +1,7 @@
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - master
 
 jobs:
   deploy-to-prod:
@@ -15,6 +17,10 @@ jobs:
         with:
           hugo-version: '0.85.0'
           # extended: true
+
+      - name: Remove admin section only visible in pre-prod
+        run: |
+          - rm -rf static/admin
 
       - name: Build
         run: hugo --gc --minify

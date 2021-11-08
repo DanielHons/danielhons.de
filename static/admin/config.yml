@@ -32,7 +32,7 @@ collections:
   - label: "Products Section"
     name: "Products"
     files:
-      - file: "src/data/test.json"
+      - file: "data/testimonials.json"
         label: "testimonials"
         name: "Testimonials"
         extension: "json"

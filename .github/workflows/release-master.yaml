@@ -20,7 +20,7 @@ jobs:
 
       - name: Remove admin section only visible in pre-prod
         run: |
-          - rm -rf static/admin
+          rm -rf static/admin
 
       - name: Build
         run: hugo --gc --minify

@@ -2,7 +2,7 @@
 title: "UI-Testautomatisierung"
 technologien:
 - Java 
-- C#
+- C-Sharp
 - PHP  
 - JUnit 
 - PHPUnit

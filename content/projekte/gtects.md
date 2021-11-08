@@ -4,7 +4,7 @@ begin: 2013
 duration: 18 Monate
 technologien:
 - Analytische Graphentheorie
-- C++
+- C/Cpp
 - Visual Studio
 ---
 Mithilfe einer eigens entwickelten Software wurde es möglich, Dateien in einem Standardformat für kristallographische Strukturen (CIF) einzulesen, 

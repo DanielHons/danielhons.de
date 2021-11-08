@@ -29,8 +29,8 @@ collections:
       - { label: "Categories", name: "categories", widget: "array" }
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
-  - label: "Products Section"
-    name: "Products"
+  - label: "More Data"
+    name: "data"
     files:
       - file: "data/testimonials.json"
         label: "testimonials"

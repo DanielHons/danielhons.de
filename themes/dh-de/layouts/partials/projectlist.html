@@ -27,7 +27,7 @@
                         {{ end }}
                         <h6>Technologien:</h6>
                         {{ range $name, $taxonomy := .Page.Params.technologien }}
-                        <a class="mr-2 d-inline-block" title="Projekte mit {{ $taxonomy }}" href="{{ "/technologien/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+                        <a class="mr-2 d-inline-block" title="Projekte mit {{ $taxonomy }}" href="{{ "/technologien/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>
                         {{ end }}
 
                     </div>

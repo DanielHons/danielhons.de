@@ -5,5 +5,7 @@ math: false
 ---
 * Individuelle 3D-Modellierung
 * Druck von einfachen Modellen / Prototypen
-   * Verschiedene Materialen möglich
+
+  * Verschiedene Materialen möglich
+
 <!--more-->

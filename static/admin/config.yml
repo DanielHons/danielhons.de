@@ -29,6 +29,16 @@ collections:
       - { label: "Categories", name: "categories", widget: "array" }
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
+  - name: "service" # Used in routes, e.g., /admin/collections/blog
+    label: "Service" # Used in the UI
+    folder: "content/service" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" #
+    fields: # The fields for each document, usually in front matter
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Create Details Page", name: "hasMoreContent", widget: "boolean",  default: false }
+      - { label: "Math mode enabled (Katex)", name: "math", widget: "boolean" , default: false}
+      - { label: "Body", name: "body", widget: "markdown",default: "<!--more-->"}
   - label: "More Data"
     name: "data"
     files:

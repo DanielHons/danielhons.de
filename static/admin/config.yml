@@ -3,8 +3,8 @@ backend:
   repo: DanielHons/danielhons.de # Path to your GitHub repository
   # optional, defaults to master
   branch: develop
-media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
-public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+media_folder: "static/images" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images" # The src attribute for uploaded media will begin with /images/uploads
 collections:
   - name: "projects" # Used in routes, e.g., /admin/collections/blog
     label: "Projekte" # Used in the UI
@@ -12,9 +12,48 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Year begin", name: "begin", widget: "number"}
-      - {label: "Duration", name: "duration", widget: "string"}
-      - {label: "Technologien", name: "technologien", widget: "array"  }
-      - {label: "Body", name: "body", widget: "markdown"}
-
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Year begin", name: "begin", widget: "number" }
+      - { label: "Duration", name: "duration", widget: "string" }
+      - { label: "Technologien", name: "technologien", widget: "array" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "blog" # Used in routes, e.g., /admin/collections/blog
+    label: "Blog" # Used in the UI
+    folder: "content/post" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Duration", name: "duration", widget: "string" }
+      - { label: "Categories", name: "categories", widget: "array" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - label: "More Data"
+    name: "data"
+    files:
+      - file: "data/testimonials.json"
+        label: "testimonials"
+        name: "Testimonials"
+        extension: "json"
+        format: "json"
+        editor:
+          preview: false
+        fields:
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "list"
+            types:
+              - label: "Testimonial"
+                name: "testimonial"
+                widget: "object"
+                fields:
+                  - label: "Autor"
+                    name: "author"
+                    widget: "string"
+                  - label: "Weight (high=top)"
+                    name: "weight"
+                    widget: "number"
+                  - label: "Text"
+                    name: "text"
+                    widget: "string"

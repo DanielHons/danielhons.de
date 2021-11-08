@@ -4,7 +4,7 @@ begin: 2021
 duration: 1 Monat
 technologien:
   - Go
-  - GithubActions
+  - Github Actions
 ---
 Mehrere Softwarekomponenten, die auf nicht-virtualisierten Maschinen in einem Rechenzentrum laufen, wurden an bestehende DevOps Prozesse angebunden.
 

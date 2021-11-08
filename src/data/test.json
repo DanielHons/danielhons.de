@@ -1,9 +1,35 @@
 {
   "testimonials": [
     {
-      "author": "Knut Knutson",
-      "weight": 2,
-      "text": "Knuuut"
+      "type": "testimonial",
+      "weight": 10,
+      "author": "Dipl.-Ing. Hans-Georg Glöckler, Systemadministrator am Institut für Neuroinformatik an der Universität Ulm",
+      "text": "Daniel Hons kenne ich jetzt seit zwei Jahren. In unserem Institut programmieren viele wissenschaftliche Mitarbeiter, Herr Hons ist meines Erachtens definitiv einer der besten Programmierer, die mir je begegnet sind! Er ist hochintelligent, kreativ, hat eine sehr schnelle Auffassungsgabe und analysiert komplexe Probleme vollumfängliche. Er vermittelt Wissen anschaulich, systematisch und leicht verständlich. Bei Problemen ist er ein zuverlässiger Ansprechpartner und löst diese nach aktuellem Stand der Technik."
+    },
+    {
+      "type": "testimonial",
+      "weight": 9,
+      "author": "Dipl.-Ing. Klaus Zöggeler, Digital Research & Development Leader, INNIO Jenbacher  GmbH & Co OG",
+      "text": "Herr Hons besticht in unseren Projekten durch seine Motivation bei der effizienten Umsetzung der Aufgabenstellungen und ist dabei stets bedacht, für alle Problemstellungen möglichst zuverlässige und wartbare Implementierungen anzubieten"
+    },
+    {
+      "type": "testimonial",
+      "weight": 99,
+      "author": "Guy Gorek, Team-Lead - andagon GmbH",
+      "text": "Herr Hons hat unsere Erwartungen in dieses Projekt im vollsten Umfang erfüllt. Er hat die Anforderung effizient und in sehr hoher Qualität umgesetzt."
+    },
+    {
+      "type": "testimonial",
+      "weight": 100,
+      "author": "Dr. Steffen Grüter, Lehrstuhl C für Mathematik, RWTH Aachen ",
+      "text": "Herr Hons hat in unserem Projekt maßgeblich dazu beigetragen, dass diese interdisziplinäre Arbeit erfolgreich absolviert werden konnte. Seine Aufgaben ging Herr Hons stets hoch motiviert an und er zeigte eine große Begeisterungsfähigkeit gerade in Bezug auf das Anwenden bekannter Methoden aus dem Studium in der Praxis und die damit verbundene Zusammenarbeit mit Kollegen aus verschiedenen Disziplinen. Eine hohe Eigenständigkeit sowie eine jederzeit zügige Umsetzung der aufgetretenen Aufgaben kamen ebenfalls hinzu, so dass ich Herrn Hons uneingeschränkt für weitere Aufgaben ähnlicher Natur empfehlen kann."
+    },
+    {
+      "type": "testimonial",
+      "date": "2021-09-13",
+      "weight": 8,
+      "author": "Philipp Kanaan, Team Lead Software Development, NorthernData AG",
+      "text": "Kompetent, erfahren und mit großem Effekt half uns Herr Hons in Sachen Systemarchitektur, Produktqualität und Prozessoptimierung. Besondere Alleinstellungsmerkmale waren sein Scharfsinn im Kontext komplexer Systeme, die umfassende Beachtung von Rahmenparametern, sowie die Entwicklung wirklich maßgeschneiderter Lösungen. Ein Informatiker par Excellence."
     }
   ]
 }

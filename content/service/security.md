@@ -1,5 +1,5 @@
 ---
-title: "IT- und Datensicherheit"
+title: IT- und Datensicherheit
 hasMoreContent: false
 ---
 

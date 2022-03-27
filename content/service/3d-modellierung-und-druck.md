@@ -3,9 +3,11 @@ title: 3D-Modellierung und -Druck
 hasMoreContent: false
 math: false
 ---
-* Individuelle 3D-Modellierung
-* Druck von einfachen Modellen / Prototypen
+* OpenScad
+* Fusion360
+* div. Slicer
 
-  * Verschiedene Materialen möglich
+* Druck
+  * Prusa Mk3s+
 
 <!--more-->

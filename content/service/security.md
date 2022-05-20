@@ -2,11 +2,20 @@
 title: IT- und Datensicherheit
 hasMoreContent: false
 ---
-
-* Authentifizierung
-* Authorisierung
+* Authentifizierung und Autorisierung
+  * OAuth2 + OpenID Connect
+  * Single Sign On (SSO)
 * Verschlüsselung
-* Single Sign On (SSO)
+  * 
+* Backups
+* Verschlüsselung
+    * symm./asym.
+    * encryption in motion/at rest
+    * PKI
+* TLS
+* Authorisierung
+
+* 
 <!--more-->
 
 

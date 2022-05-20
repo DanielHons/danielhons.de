@@ -1,9 +1,18 @@
 ---
-title: "Continuous Integration"
+title: Dev-Ops
 hasMoreContent: false
+math: false
 ---
 
-Konzept- und Prozessentwicklung **DevOps**, Build- und Deploymentpipelines.  
+* CI/CD
+  * **Git**
+  * Github Actions & weitere
+
+* Dev-Ops
+  * Kubernetes
+  * **Helm**
+  
+* Cloud (**Amazon AWS**, GCP,  Azure) 
 <!--more-->
 
 

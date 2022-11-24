@@ -2,8 +2,15 @@
   "testimonials": [
     {
       "type": "testimonial",
-      "date": "2021-09-13",
+      "date": "2022-11-24",
       "weight": 8,
+      "author": "Benjamin Pirlich, Projekt Manager, NorthernData AG",
+      "text": "Herr Daniel Hons ist ein sehr talentierter, begabter und fleißiger Softwareentwickler. Er hat hervorragende Kenntnisse in Go, DevOps, Qualitätsicherung und CI?CD-Piplines. Er löst komplexe Sachverhalte schnell und ordentlich. Er ist ein guter Software-Architekt und hiflt wo er nur kann. Er ist freundlich und zuvorkommend. Es macht Freude mit ihm zu arbeiten."
+    },
+    {
+      "type": "testimonial",
+      "date": "2021-09-13",
+      "weight": 12,
       "author": "Philipp Kanaan, Team Lead Software Development, NorthernData AG",
       "text": "Kompetent, erfahren und mit großem Effekt half uns Herr Hons in Sachen Systemarchitektur, Produktqualität und Prozessoptimierung. Besondere Alleinstellungsmerkmale waren sein Scharfsinn im Kontext komplexer Systeme, die umfassende Beachtung von Rahmenparametern, sowie die Entwicklung wirklich maßgeschneiderter Lösungen. Ein Informatiker par Excellence."
     },

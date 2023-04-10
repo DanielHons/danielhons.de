@@ -1,3 +1,4 @@
 ./docs
 /docs/
 resources/_gen
+/profiletex/gen_techs.tex

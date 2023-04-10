@@ -1,5 +1,5 @@
 ---
-title: "Integration von OpenID in ein bestehendes Altsystem"
+title: "Seamless OpenID Integration to Enhance an Existing Legacy System"
 begin: 2020
 duration: 2 Monate
 technologien:
@@ -16,5 +16,5 @@ UI für das Self Management (auf Basis von Go Template).
 ##### Beitrag
 - Konzeption
 - Architektur
-- Entwicklung
+- Konfigurationsmanagement
 

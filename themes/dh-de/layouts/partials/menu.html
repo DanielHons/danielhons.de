@@ -31,6 +31,12 @@
         </li>
         {{ end }}
         {{ end }}
+        {{ if .IsTranslated }}
+        {{ range .Translations }}
+        <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+        {{ end }}
+        {{ end }}
+        </li>
     </ul>
 
 </div>

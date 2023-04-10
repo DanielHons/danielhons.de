@@ -1,0 +1,100 @@
+1Password
+Apache Cassandra
+Apache Webserver
+Apache POI
+Apple HomeKit
+AES
+AWS
+Avro
+GCP
+Azure
+Amazon S3
+Static Website
+Bitbucket
+Bitbucket Pipelines
+C++
+CSS
+C-Sharp
+Confluence
+Delphi
+Docker
+Docker Compose
+Docker Machine
+Docker Swarm
+Envoy
+External-Secrets (K8s)
+Flyway
+Git
+Go (GoLang)
+GoLand (IDE)
+Grafana
+Gradle
+HTML
+Helm
+Hugo
+IntelliJ
+Internet of Things (IOT)
+JWT
+Jackson
+Java
+JavaScript
+Jenkins
+Jira
+Json
+Kafka
+Keycloak
+Kibana
+Kubernetes
+Kustomize
+LaTeX
+Linux
+Let's encrypt
+Loki
+Maven
+MacOS
+MySQL / MariaDB
+Mosquitto
+MongoDb
+Mqtt
+MsSQL
+Neo4j
+Nginx
+NodeRed
+OAuth 2.0
+OpenID Connect
+Oracle SQL
+Ory Hydra
+Ory Kratos
+Ory Oathkeeper
+Oauth2-proxy
+PHP
+Portainer
+Public Key Infrastructure (PKI)
+PostgREST
+PgBackRest
+PostgreSQL
+Protocol Buffers
+Redis
+SAML
+Splunk
+SQL
+Shell / Bash
+Spring-boot
+Spring-data
+Spring-data-rest
+Spring-mvc
+Spring-security
+Subversion
+SSL/TLS
+Swift
+SwiftUI
+Telegraf
+Traefik
+Tomcat
+Toml
+Thymeleaf
+Turbo Pascal
+Ubiquity
+Vaadin
+Websockets
+Yaml

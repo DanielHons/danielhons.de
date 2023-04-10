@@ -1,6 +1,15 @@
 baseURL: "https://danielhons.de"
-languageCode: "de-de"
-title: "Daniel Hons - Software für höchste Ansprüche"
+defaultContentLanguage: de
+languages:
+  de:
+    title: "Daniel Hons - Software für höchste Ansprüche"
+    LanguageName: DE
+    weight: 1
+  en:
+    title: "Daniel Hons - First Class Software"
+    LanguageName: EN
+    weight: 2
+
 theme: "dh-de"
 publishDir: "docs"
 enableRobotsTXT: true

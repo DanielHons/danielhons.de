@@ -3,10 +3,10 @@
     <div class="container">
         <p class="m-0 text-center text-white">
             &copy; {{ now.Format "2006"}} {{ .Site.Params.name }}
-            - Alle Rechte vorbehalten. <br/>
+            -  {{ T "copyright" . -}} <br/>
             <span class="small">
-            <a href="{{ relref . "impressum/datenschutz.md" }}">Datenschutzerklärung</a> |
-            <a href="{{ relref . "impressum/_index.md" }}">Impressum</a>
+            <a href="{{ relLangURL "impressum/datenschutz" }}">Datenschutzerklärung</a> |
+            <a href="{{ relLangURL  "impressum/" }}">Impressum</a>
           </span>
         </p>
     </div>

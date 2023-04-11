@@ -1,0 +1,102 @@
+%% start of file `Lebenslauf_Template.tex'.
+%% Original-Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%% Changed by gratiswurst.de
+%
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[12pt,a4paper]{moderncv}
+
+% moderncv themes
+\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+\usepackage[english,ngerman]{babel}
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+\usepackage{graphicx}
+\usepackage{txfonts}
+
+\setlength{\hintscolumnwidth}{3.5cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+\usepackage{tabularx}
+\usepackage{array}
+\newcolumntype{Y}{>{\arraybackslash\textbf}X}
+
+\usepackage{multicol}
+
+%----------------------------------------------------------------------------------
+%            Kontaktdaten
+%----------------------------------------------------------------------------------
+% VORNAME
+\firstname{Dipl. Math. Daniel}
+% NACHNAME
+\familyname{Hons}
+%TITEL (optional, ggf. einfach die Zeile löschen!)
+\title{Freelancer / Software Engineer}
+%ADRESSE  (optional, ggf. einfach die Zeile löschen!)
+%\address{Robert Koch Straße 2}{50127 Bergheim}
+%FESTNETZNUMMER  (optional, ggf. einfach die Zeile löschen!)
+\phone{0176 - 62807613}
+%EMAIL-ADRESSE  (optional, ggf. einfach die Zeile löschen!)
+\email{projects@danielhons.de}
+%FOTO  (optional, ggf. einfach die Zeile löschen!)
+%  64pt = Höhe des Bildes, 'picture' = Name des Bildes
+%\photo[64pt]{picture}
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+%----------------------------------------------------------------------------------
+%            Inhalt
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+\section{Person}
+\cvline{Name}{Daniel Hons}
+\cvline{Born}{1985}
+\cvline{Profession}{Mathematician}
+\cvline{Languages}{German (native), English (fluent)}
+\cvline{Doing software since}{more than 20 years}
+
+
+\section{Fokus}
+Development of scalable, maintainable, sustainable high-quality software.
+
+
+
+\newpage
+\begin{multicols}{3}
+[
+\section{Technologies (excerpt)}
+This is an alphabetical sorted list of different approaches, patterns, technologies, programming languages, etc. that I have used through my career.
+The list is neither exhaustive nor would I recommend every technology mentioned in this list, but of course it contains all my favourites as well
+]
+\begin{itemize}
+\include{gen_techs.tex}
+
+\end{itemize}
+\end{multicols}
+
+
+\section{Previous projects (excerpt)}
+Nun
+
+
+
+
+
+\end{document}
+
+
+%% end of file `Lebenslauf_Template.tex'.
+

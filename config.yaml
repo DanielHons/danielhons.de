@@ -9,7 +9,8 @@ languages:
     title: "Daniel Hons - First Class Software"
     LanguageName: EN
     weight: 2
-
+disableLanguages:
+  - en
 theme: "dh-de"
 publishDir: "docs"
 enableRobotsTXT: true

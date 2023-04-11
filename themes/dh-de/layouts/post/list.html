@@ -6,7 +6,7 @@
 
     {{ .Content }}
     <!-- Blog Post -->
-    {{ range .Paginator.Pages }}
+    {{ range .Paginator.Pages.ByParam "date" }}
     <div class="card mb-4">
         <div class="card-body">
             <div class="row">

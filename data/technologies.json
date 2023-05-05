@@ -284,7 +284,7 @@
     "id": 25,
     "name": "Kubernetes",
     "text": "Die Orchestrierung von Containern wird durch Kubernetes vereinfacht. Es entwickelt sich bei den großen Cloudanbietern derzeit zum Industriestandard.",
-    "rating": 85,
+    "rating": 95,
     "href": null,
     "hreftext": null,
     "tags": [
@@ -387,7 +387,7 @@
     "id": 34,
     "name": "OAuth 2.0",
     "text": "Mit diesem Protokoll lassen sich Berechtigungen feingranular an Dritte delegieren. Oauth ist ebenfalls eine Grundlage für das SSO Protokoll OpenID Connect",
-    "rating": 70,
+    "rating": 80,
     "href": null,
     "hreftext": null,
     "tags": [
@@ -398,7 +398,7 @@
     "id": 35,
     "name": "OpenID Connect",
     "text": "Dieses Protokoll für Single Sign On setzt sich immer weiter durch. Dies liegt nicht zuletzt an der breiten Unterstützung durch Facebook, Github und Google.",
-    "rating": 64,
+    "rating": 74,
     "href": null,
     "hreftext": null,
     "tags": [
@@ -409,7 +409,7 @@
     "id": 36,
     "name": "Swift",
     "text": "App-Entwicklung für IOS ist für mich die aktuell neueste Technologie.",
-    "rating": 85,
+    "rating": 75,
     "href": null,
     "hreftext": null,
     "tags": [
@@ -421,7 +421,7 @@
     "id": 37,
     "name": "Golang",
     "text": "Die Programmiersprache Go setzt sich insbesondere wegen ihrer Effizienz gerade im Microservice-Umfeld immer weiter durch. Ich finde: Zu Recht! Deswegen setze ich derzeit immer öfter auf Go.",
-    "rating": 83,
+    "rating": 92,
     "href": null,
     "hreftext": null,
     "tags": [
@@ -524,6 +524,31 @@
       "Architektur",
       "Web",
       "Security"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "gitstream.cm",
+    "text": "Automatisierung von typischen Developer-Tasks bei der Verwendung von GitHub",
+    "rating": 87,
+    "href": "https://docs.gitstream.cm",
+    "hreftext": "gitstream docs",
+    "tags": [
+      "Development",
+      "GitOps",
+      "Collaboration"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "(Chat-) GPT",
+    "text": "Belesener KI-basierter Assistent von OpenAI mit breiten Anwendungsmöglichkeiten",
+    "rating": 98,
+    "href": "https://chat.openai.com",
+    "hreftext": "Chat GPT",
+    "tags": [
+      "Tools",
+      "KI"
     ]
   }
 ]

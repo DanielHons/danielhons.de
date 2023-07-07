@@ -10,7 +10,7 @@ technologien:
 - Postgres
 - Kubernetes
 - GitHub Actions
-- Google Cloud
+- GCP
 ---
 
 Der Kunde betreibt Rechenzentren weltweit und möchte seine Dienste an Endkunden verkaufen. Hierfür wird ein Kundenportal mit Schnittstellen zu den Rechenzentren benötigt. Besonderer Wert wird auf Systemsicherheit gelegt.

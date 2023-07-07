@@ -10,7 +10,7 @@ technologien:
 - Postgres
 - Kubernetes
 - GitHub Actions
-- Google Cloud
+- GCP
 ---
 
 The client operates data centers worldwide and wants to sell their services to end customers. For this purpose, a customer portal with interfaces to the data centers is required. Special emphasis is placed on system security.

@@ -15,9 +15,9 @@ konzeptionell in die Entwicklungsprozesse integriert werden.
 An einer ausgewählten Software-Komponente wurde ein Proof-Of-Concept durchgeführt, in dessen Umfang die zur Einführung benötigten Werkzeuge geschaffen wurden.
 
 Folgende Software-Komponenten wurden geliefert:
-- Vorlage für ein git repo mit Muster-Spezifikation und Shell-Befehlen zur Generierung von Code (Client & Server)
-- Initiale shared library, die in allen Komponenten genutzt werden kann
-- Integration in die Kundenspezifischen CI/CD Prozesse
+- **Vorlage für ein git Repository** mit Muster-Spezifikation und Shell-Befehlen zur Generierung von Code (Client & Server)
+- Initiale **Shared Library**, die in allen Komponenten genutzt werden kann
+- Integration in die Kundenspezifischen **CI/CD** Prozesse
 
 ##### Beitrag
 - Durchführung POC

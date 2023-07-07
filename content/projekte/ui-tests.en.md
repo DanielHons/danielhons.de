@@ -1,5 +1,7 @@
 ---
 title: "UI Test Automation with Test Utility Libraries for Various Technologies and Languages"
+begin: 2013
+duration: 36 Months
 technologien:
 - Java
 - C-Sharp

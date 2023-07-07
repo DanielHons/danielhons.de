@@ -10,7 +10,14 @@
 
     {{ .Content }}
 
-    {{ partial "projectlist.html" . }}
+    {{ $pages := .Pages }}
+    {{ $sorted := ($pages.ByParam "begin").Reverse }}
+    {{ $paginator := .Paginate $sorted }}
+    {{ range .Paginator.Pages }}
+    {{ partial "projectcard" . }}
+
+
+    {{ end }}
 
 
     <!-- Pagination -->

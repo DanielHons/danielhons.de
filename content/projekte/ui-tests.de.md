@@ -1,5 +1,7 @@
 ---
 title: "UI-Testautomatisierung mit Testhilfsbibliotheken für verschiedene Technologien und Sprachen"
+begin: 2013
+duration: 36 Monate
 technologien:
 - Java
 - C-Sharp

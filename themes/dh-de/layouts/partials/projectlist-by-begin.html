@@ -1,0 +1,8 @@
+{{ $pages := .Pages }}
+{{ $sorted := ($pages.ByParam "begin").Reverse }}
+{{ $paginator := .Paginate $sorted }}
+{{ range ($paginator.Pages.ByParam "begin").Reverse }}
+{{ partial "projectcard" . }}
+
+
+{{ end }}

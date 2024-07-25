@@ -3,17 +3,23 @@
         <h3>{{ .Page.Params.adelsTitel}}</h3>
         <!-- Contact Details Column -->
         <p>
-            <span>{{ .Site.Params.nameWithTitle}}</span>
-            <br/><span>{{ .Site.Params.address1}}</span>
-            <br/><span>{{ .Site.Params.address2}}</span>
+            <span>{{ .Site.Params.company.name}}</span>
+            <br/><span>{{ .Site.Params.company.address1}}</span>
+            <br/><span>{{ .Site.Params.company.address2}}</span>
             <br/>
+            <br/><span>{{ .Site.Params.company.register}}</span>
+        </p>
+        <h3>vertreten durch</h3>
+        <p>
+            <abbr title="Geschäftsführer">CEO</abbr>: <span>{{ .Site.Params.company.owner}}</span>
         </p>
         <p>
             <abbr title="Telefonnummer">T</abbr>: <span>{{ .Site.Params.phone}}</span>
         </p>
         <p>
             <abbr title="Email-Adresse">E</abbr>:
-            <span class="mskmail">mail (klammeraff) danielhons.de</span> (Verschlüsseln mit <a title="Public Key herunterladen" href="/assets/pgp-public-key.asc">PGP</a>)
+            <span class="mskmail">mail (klammeraff) danielhons.de</span> (Verschlüsseln mit <a
+                title="Public Key herunterladen" href="/assets/pgp-public-key.asc">PGP</a>)
 
         </p>
         <p>

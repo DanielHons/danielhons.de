@@ -21,13 +21,16 @@ taxonomies:
 
 params:
   nameWithTitle: "Dipl. math. Daniel Hons"
-  name: "Daniel Hons"
+  company:
+    name: "Algorise Solutions GmbH"
+    address1: Mühlenweg 40
+    address2: 54597 Pronsfeld
+    register: Amtsgericht Wittlich / HRB 46854
+    owner: Daniel Hons
   description: "IT mit Leidenschaft"
   email: "mail@danielhons.de"
   phone: "+49 (0) 176 62 807 613"
-  address1: "Mühlenweg 40"
-  address2: "54597 Pronsfeld"
-  taxNumber: "DE308862349"
+  taxNumber: "DE366549404"
   avatar: "images/guy.jpg"
   background: ""
   DateForm: "02. Jan 2006"
